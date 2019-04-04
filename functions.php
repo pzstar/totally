@@ -6,21 +6,21 @@ function totally_dequeue_script() {
 }
 add_action( 'wp_print_scripts', 'totally_dequeue_script', 100 );
 
-add_action('wp_enqueue_scripts', 'totally_enqueue_styles');
+add_action('wp_enqueue_scripts', 'totally_enqueue_scripts');
 
-function totally_enqueue_styles() {
+function totally_enqueue_scripts() {
     wp_enqueue_style('totally-parent-style', get_template_directory_uri() . '/style.css');
     wp_enqueue_style('totally-style', get_stylesheet_directory_uri() . '/style.css', array('totally-parent-style'), '1.0');
     wp_add_inline_style( 'totally-style', totally_dymanic_styles() );
-    wp_enqueue_script( 'totally-custom', get_stylesheet_directory_uri() . '/js/totally-custom.js', array('jquery'), '1.01', true );
+    wp_enqueue_script( 'totally-custom', get_stylesheet_directory_uri() . '/js/totally-custom.js', array('jquery'), '1.0', true );
     wp_enqueue_style( 'totally-fonts', totally_fonts_url(), array(), null );
 }
 
 function totally_widgets_init() {
     register_sidebar( array(
-            'name'          => esc_html__( 'Top Header Widget', 'total' ),
+            'name'          => esc_html__( 'Top Header Widget', 'totally' ),
             'id'            => 'totally-top-header-widget',
-            'description'   => __( 'Add widgets here to appear in your Top Header.', 'total' ),
+            'description'   => esc_html__( 'Add widgets here to appear in your Top Header.', 'totally' ),
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',
             'after_widget'  => '</aside>',
             'before_title'  => '<h4 class="widget-title">',
@@ -28,9 +28,9 @@ function totally_widgets_init() {
     ) );
     
     register_sidebar( array(
-            'name'          => esc_html__( 'Main Header Widget', 'total' ),
+            'name'          => esc_html__( 'Main Header Widget', 'totally' ),
             'id'            => 'totally-main-header-widget',
-            'description'   => __( 'Add widgets here to appear in your Top Header.', 'total' ),
+            'description'   => esc_html__( 'Add widgets here to appear in your Top Header.', 'totally' ),
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',
             'after_widget'  => '</aside>',
             'before_title'  => '<h4 class="widget-title">',
@@ -104,6 +104,7 @@ function totally_fonts_url() {
 function totally_dymanic_styles(){
     $color = get_theme_mod( 'total_template_color', '#FFC107' );
     $color_rgba = totally_hex2rgba($color, 0.6);
+    $totally_titlebar_background = get_theme_mod( 'totally_titlebar_background', '' );
     //$darker_color = totalColourBrightness($color, -0.9);
     $custom_css = "
         body #ht-site-navigation .ht-nav-wrap, 
@@ -112,9 +113,11 @@ function totally_dymanic_styles(){
         body .ht-blog-date,
         body .ht-section-title:before,
         body .ht-team-detail,
-        body .ht-team-detail:hover{background:{$color}}
+        body .ht-team-detail:hover,
+        body .ht-sticky #ht-site-navigation{background:{$color}}
         body .ht-team-detail{background:{$color_rgba}}
         body .ht-featured-post h5, body .ht-featured-link a:hover{color:{$color}}
+        body .ht-main-header{background-image: url({$totally_titlebar_background})}
     ";
 
     return totally_css_strip_whitespace($custom_css); 

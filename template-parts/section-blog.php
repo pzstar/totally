@@ -43,16 +43,16 @@ if (get_theme_mod('total_blog_section_disable') != 'on') {
                             if (has_post_thumbnail()) {
                                 ?> 
                                 <div class="ht-blog-thumbnail">
-                                    <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url($total_image[0]) ?>" alt="<?php the_title(); ?>"></a>
+                                    <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url($total_image[0]) ?>"></a>
                                 </div>
                                 <?php
                             }
                             ?>
                             <div class="ht-blog-excerpt">
                                 <div class="ht-blog-date">
-                                    <span><?php echo get_the_date('d'); ?></span>
-                                    <span><?php echo get_the_date('M'); ?></span>
-                                    <span><?php echo get_the_date('Y'); ?></span>
+                                    <span><?php echo esc_html(get_the_date('d')); ?></span>
+                                    <span><?php echo esc_html(get_the_date('M')); ?></span>
+                                    <span><?php echo esc_html(get_the_date('Y')); ?></span>
                                 </div>
                                 <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
                                 <?php

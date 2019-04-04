@@ -51,9 +51,9 @@ if (get_theme_mod('total_team_section_disable') != 'on') {
                                         }
                                         ?>
 
-                                        <img src="<?php echo esc_url($image_url); ?>" alt="<?php the_title(); ?>" />
+                                        <img src="<?php echo esc_url($image_url); ?>" />
                                         <div class="ht-title-wrap">
-                                        <h6><?php the_title(); ?></h6>
+                                            <h6><?php the_title(); ?></h6>
                                         </div>
                                         <a href="<?php the_permalink(); ?>" class="ht-team-detail"></a>
                                     </div>	
@@ -68,7 +68,8 @@ if (get_theme_mod('total_team_section_disable') != 'on') {
                                             the_excerpt();
                                         } else {
                                             echo esc_html(total_excerpt(get_the_content(), 100));
-                                        } ?>
+                                        }
+                                        ?>
                                     </div>
 
                                     <?php if ($total_team_facebook || $total_team_twitter || $total_team_google_plus) { ?>

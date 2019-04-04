@@ -12,6 +12,10 @@
  Text Domain:  totally
 */
 
+body, button, input, select, textarea{
+    line-height: 1.8;
+}
+
 body,
 button,
 input,
@@ -21,7 +25,9 @@ textarea,
 .woocommerce ul.products li.product .woocommerce-loop-product__title, 
 .woocommerce ul.products li.product h3,
 .ht-cta-buttons a,
-.ht-main-navigation a{
+.ht-main-navigation a,
+.ht-post-info,
+.single .ht-post-info .entry-date span.ht-day{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -33,36 +39,36 @@ h3,
 h4,
 h5,
 h6,
-.ht-post-info,
 .ht-site-title,
 .ht-slide-cap-title,
-.ht-counter-count{
+.ht-counter-count,
+.ht-post-info .entry-date span.ht-day{
     font-family: 'Teko', sans-serif; 
     font-weight: 300;
 }
 
 h1{
-    font-size: 38px;
+    font-size: 42px;
 }
 
 h2{
-    font-size: 32px;
+    font-size: 36px;
 }
 
 h3{
-    font-size: 28px;
+    font-size: 30px;
 }
 
 h4{
-    font-size: 26px;
+    font-size: 28px;
 }
 
 h5{
-    font-size: 24px;
+    font-size: 26px;
 }
 
 h6{
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .ht-main-navigation a{
@@ -87,7 +93,8 @@ h6{
     font-size: 50px;
 }
 
-.ht-slide-cap-title{
+.ht-slide-cap-title,
+.ht-site-title{
     font-size: 54px;
 }
 
@@ -95,10 +102,49 @@ h6{
     padding: 8px 20px 4px;
 }
 
+.ht-main-header{
+    position: relative;
+    padding: 150px 0 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ht-main-header:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.ht-main-header .ht-container{
+    position: relative;
+}
+
+.ht-main-title{
+    color: #FFF;
+}
+
+.breadcrumb-trail ul,
+.breadcrumb-trail ul a{
+    color: #FFF;
+}
+
 #ht-masthead,
 .ht-sticky#ht-masthead{
     height: auto;
     border: none;
+    position: relative;
+}
+
+.ht-sticky-header #ht-masthead{
+    position: relative;
+}
+
+.ht-sticky-header #ht-content{
+    padding: 0
 }
 
 .ht-sticky #ht-site-navigation,
@@ -195,7 +241,8 @@ h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0 60px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 #ht-site-branding{
@@ -217,6 +264,8 @@ h6{
     float: none;
     width: auto;
     padding: 0;
+    position: absolute;
+    width: 100%;
 }
 
 #ht-site-navigation .ht-container{
@@ -224,14 +273,27 @@ h6{
 }
 
 #ht-site-navigation .ht-nav-wrap{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     padding: 15px;
     background: #FFC107;
     transform: translateY(-50%);
     z-index: 9;
+}
+
+.ht-sticky #ht-site-navigation{
+    position: fixed;
+    transform: translateY(0);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFC107;
+}
+
+body.admin-bar .ht-sticky #ht-site-navigation{
+    top: 32px;
+}
+
+.ht-sticky #ht-site-navigation .ht-nav-wrap{ 
+    transform: translateY(0);
 }
 
 .ht-main-navigation .ht-menu{
@@ -259,8 +321,8 @@ h6{
 body .ht-main-navigation li:hover > a, 
 body.page-template-home-template .ht-main-navigation li:hover > a,
 body.page-template-home-template .ht-main-navigation .current > a{
-    background: #FFF;
-    color: #333;
+    background: #FFF !important;
+    color: #333 !important;
 }
 
 .ht-section-title{
@@ -517,4 +579,46 @@ body.page-template-home-template .ht-main-navigation .current > a{
 
 .ht-team-content-wrap{
     margin-bottom: 10px;
+}
+
+.single .ht-post-info{
+    float: none;
+    width: auto;
+    text-align: left;
+}
+
+.single .ht-post-info .entry-date span{
+    display: inline;
+}
+
+.single .ht-post-info .entry-date span.ht-day{
+    display: inline;
+    font-size: 1em;
+    color: inherit !important;
+    margin-right: 10px;
+}
+
+.single .ht-post-info{
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+
+.single .ht-post-info a,
+.ht-post-info .entry-date{
+    display: inline;
+    border: none;
+    font-size: 1em;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    .toggle-bar {
+        position: relative;
+        float: right;
+        top: 0;
+        right: 0;
+        border: 1px solid #FFF;
+    }
+    
+    
 }

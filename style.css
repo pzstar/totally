@@ -300,6 +300,10 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     float: none;
 }
 
+.ht-main-navigation ul ul{
+    margin-top: 15px;
+}
+
 .ht-main-navigation li{
     margin-left: 0;
     margin-right: 10px;
@@ -318,6 +322,11 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     color: #FFF;
 }
 
+body.home.blog .ht-main-navigation li:hover > a, 
+body .ht-main-navigation .current_page_item > a, 
+body .ht-main-navigation .current-menu-item > a, 
+body .ht-main-navigation .current_page_ancestor > a, 
+body.home.blog .ht-main-navigation .current > a
 body .ht-main-navigation li:hover > a, 
 body.page-template-home-template .ht-main-navigation li:hover > a,
 body.page-template-home-template .ht-main-navigation .current > a{
@@ -353,6 +362,10 @@ body.page-template-home-template .ht-main-navigation .current > a{
 #ht-counter-section .ht-section-title:before,
 #ht-cta-section .ht-section-title:before{
     background: #FFF;
+}
+
+#ht-featured-post-section{
+    padding-bottom: 100px;
 }
 
 .ht-featured-post{
@@ -511,6 +524,10 @@ body.page-template-home-template .ht-main-navigation .current > a{
     margin-bottom: 40px;
 }
 
+.ht-testimonial-slider .ht-testimonial:nth-child(2n+1){
+    clear: both;
+}
+
 .ht-testimonial-excerpt{
     width: 100%;
     text-align: left;
@@ -581,6 +598,14 @@ body.page-template-home-template .ht-main-navigation .current > a{
     margin-bottom: 10px;
 }
 
+.total-hentry .ht-post-info .entry-date span.ht-day{
+    line-height: 1;
+}
+
+.total-hentry .ht-post-info a{
+    margin-top: 15px;
+}
+
 .single .ht-post-info{
     float: none;
     width: auto;
@@ -604,7 +629,7 @@ body.page-template-home-template .ht-main-navigation .current > a{
 }
 
 .single .ht-post-info a,
-.ht-post-info .entry-date{
+.single .ht-post-info .entry-date{
     display: inline;
     border: none;
     font-size: 1em;
@@ -619,6 +644,4 @@ body.page-template-home-template .ht-main-navigation .current > a{
         right: 0;
         border: 1px solid #FFF;
     }
-    
-    
 }

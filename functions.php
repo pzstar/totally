@@ -115,10 +115,10 @@ function totally_dymanic_styles() {
         body .ht-team-detail,
         body .ht-team-detail:hover,
         body .ht-sticky #ht-site-navigation,
-        body .ht-top-header{background:{$color}}
-        body .ht-team-detail{background:{$color_rgba}}
-        body .ht-featured-post h5, body .ht-featured-link a:hover{color:{$color}}
-        body .ht-main-header{background-image: url({$totally_titlebar_background})}
+        body .ht-top-header{background:" . sanitize_hex_color($color) . "}
+        body .ht-team-detail{background:" . totally_sanitize_color_alpha($color_rgba) . "}
+        body .ht-featured-post h5, body .ht-featured-link a:hover{color:" . sanitize_hex_color($color) . "}
+        body .ht-main-header{background-image: url(". esc_url($totally_titlebar_background) .")}
     ";
 
     return totally_css_strip_whitespace($custom_css);
@@ -188,6 +188,42 @@ function totally_hex2rgba($color, $opacity = false) {
     return $output;
 }
 
+function totally_sanitize_color_alpha($color) {
+    $color = str_replace('#', '', $color);
+    if ('' === $color) {
+        return '';
+    }
+
+    // 3 or 6 hex digits, or the empty string.
+    if (preg_match('|^#([A-Fa-f0-9]{3}){1,2}$|', '#' . $color)) {
+        // convert to rgb
+        $colour = $color;
+        if (strlen($colour) == 6) {
+            list( $r, $g, $b ) = array($colour[0] . $colour[1], $colour[2] . $colour[3], $colour[4] . $colour[5]);
+        } elseif (strlen($colour) == 3) {
+            list( $r, $g, $b ) = array($colour[0] . $colour[0], $colour[1] . $colour[1], $colour[2] . $colour[2]);
+        } else {
+            return false;
+        }
+        $r = hexdec($r);
+        $g = hexdec($g);
+        $b = hexdec($b);
+        return 'rgba(' . join(',', array('r' => $r, 'g' => $g, 'b' => $b, 'a' => 1)) . ')';
+    }
+
+    return strpos(trim($color), 'rgb') !== false ? $color : false;
+}
+
+function totally_in_range($input, $min, $max) {
+    if ($input < $min) {
+        $input = $min;
+    }
+    if ($input > $max) {
+        $input = $max;
+    }
+    return $input;
+}
+
 add_filter('pt-ocdi/import_files', 'totally_demo_import_files', 100);
 
 function totally_demo_import_files($array) {
@@ -204,6 +240,7 @@ function totally_demo_import_files($array) {
 }
 
 add_action( 'wp_head', 'totally_remove_actions', 10 );
+
 function totally_remove_actions(){
     remove_action('pt-ocdi/after_import', 'total_after_import_setup');
 }

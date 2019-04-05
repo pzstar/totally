@@ -41,4 +41,5 @@ License: Open Font License (https://opensource.org/licenses/OFL-1.1)
 
 * Screenshot Banner Image & Header Image - https://www.pexels.com/photo/architecture-building-business-ceiling-lamp-260931/
 License: (https://www.pexels.com/photo-license/)
-* About Us Image - 
+* About Us Image - https://www.pexels.com/photo/photo-of-a-man-and-woman-using-a-laptop-computer-1647905/
+License: (https://www.pexels.com/photo-license/)

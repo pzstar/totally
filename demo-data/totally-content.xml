@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.1.1" created="2019-04-04 11:44" -->
+	<!-- generator="WordPress/5.1.1" created="2019-04-05 08:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Totally</title>
 	<link>https://demo.hashthemes.com/totally</link>
 	<description>Free WordPress Theme</description>
-	<pubDate>Thu, 04 Apr 2019 11:44:22 +0000</pubDate>
+	<pubDate>Fri, 05 Apr 2019 08:32:25 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://demo.hashthemes.com/totally</wp:base_site_url>
@@ -866,64 +866,6 @@
 							</item>
 					<item>
 		<title>
-				About Us		</title>
-		<link>https://demo.hashthemes.com/totally/2019/04/04/405/</link>
-		<pubDate>Thu, 04 Apr 2019 05:04:24 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=405</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>405</wp:post_id>
-		<wp:post_date><![CDATA[2019-04-04 05:04:24]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-04-04 05:04:24]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[405]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[11]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
 						</title>
 		<link>https://demo.hashthemes.com/totally/2019/04/04/406/</link>
 		<pubDate>Thu, 04 Apr 2019 05:04:24 +0000</pubDate>
@@ -1094,180 +1036,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-				No Sidebar – Narrow		</title>
-		<link>https://demo.hashthemes.com/totally/2019/04/04/no-sidebar-narrow/</link>
-		<pubDate>Thu, 04 Apr 2019 05:15:58 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=417</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>417</wp:post_id>
-		<wp:post_date><![CDATA[2019-04-04 05:15:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-04-04 05:15:58]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[no-sidebar-narrow]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[414]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[416]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-						</title>
-		<link>https://demo.hashthemes.com/totally/2019/04/04/418/</link>
-		<pubDate>Thu, 04 Apr 2019 05:15:58 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=418</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[ ]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>418</wp:post_id>
-		<wp:post_date><![CDATA[2019-04-04 05:15:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-04-04 05:15:58]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[418]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[412]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[416]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-						</title>
-		<link>https://demo.hashthemes.com/totally/2019/04/04/419/</link>
-		<pubDate>Thu, 04 Apr 2019 05:15:58 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=419</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[ ]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>419</wp:post_id>
-		<wp:post_date><![CDATA[2019-04-04 05:15:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-04-04 05:15:58]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[419]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[410]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[416]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1612,40 +1380,6 @@
 							</item>
 					<item>
 		<title>
-				about-us-image		</title>
-		<link>https://demo.hashthemes.com/totally/about-us-image/</link>
-		<pubDate>Thu, 04 Apr 2019 09:47:52 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/about-us-image.png</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>558</wp:post_id>
-		<wp:post_date><![CDATA[2019-04-04 09:47:52]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-04-04 09:47:52]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about-us-image]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/about-us-image.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2019/04/about-us-image.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:550;s:4:"file";s:26:"2019/04/about-us-image.png";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"about-us-image-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:26:"about-us-image-273x300.png";s:5:"width";i:273;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:21:"total-portfolio-thumb";a:4:{s:4:"file";s:26:"about-us-image-400x400.png";s:5:"width";i:400;s:6:"height";i:400;s:9:"mime-type";s:9:"image/png";}s:16:"total-team-thumb";a:4:{s:4:"file";s:26:"about-us-image-350x420.png";s:5:"width";i:350;s:6:"height";i:420;s:9:"mime-type";s:9:"image/png";}s:16:"total-blog-thumb";a:4:{s:4:"file";s:26:"about-us-image-400x280.png";s:5:"width";i:400;s:6:"height";i:280;s:9:"mime-type";s:9:"image/png";}s:11:"total-thumb";a:4:{s:4:"file";s:26:"about-us-image-100x100.png";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:9:"image/png";}s:17:"total-blog-header";a:4:{s:4:"file";s:26:"about-us-image-500x360.png";s:5:"width";i:500;s:6:"height";i:360;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
 				calc		</title>
 		<link>https://demo.hashthemes.com/totally/calc/</link>
 		<pubDate>Thu, 04 Apr 2019 09:48:51 +0000</pubDate>
@@ -1676,6 +1410,176 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:648;s:4:"file";s:16:"2019/04/calc.jpg";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"calc-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"calc-300x101.jpg";s:5:"width";i:300;s:6:"height";i:101;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:16:"calc-768x259.jpg";s:5:"width";i:768;s:6:"height";i:259;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:17:"calc-1024x346.jpg";s:5:"width";i:1024;s:6:"height";i:346;s:9:"mime-type";s:10:"image/jpeg";}s:21:"total-portfolio-thumb";a:4:{s:4:"file";s:16:"calc-400x400.jpg";s:5:"width";i:400;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-team-thumb";a:4:{s:4:"file";s:16:"calc-350x420.jpg";s:5:"width";i:350;s:6:"height";i:420;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-blog-thumb";a:4:{s:4:"file";s:16:"calc-400x280.jpg";s:5:"width";i:400;s:6:"height";i:280;s:9:"mime-type";s:10:"image/jpeg";}s:11:"total-thumb";a:4:{s:4:"file";s:16:"calc-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:17:"total-blog-header";a:4:{s:4:"file";s:16:"calc-720x360.jpg";s:5:"width";i:720;s:6:"height";i:360;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				totally-logo		</title>
+		<link>https://demo.hashthemes.com/totally/totally-logo/</link>
+		<pubDate>Thu, 04 Apr 2019 14:00:59 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/totally-logo.png</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>563</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-04 14:00:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-04 14:00:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[totally-logo]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/totally-logo.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2019/04/totally-logo.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:231;s:6:"height";i:55;s:4:"file";s:24:"2019/04/totally-logo.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"totally-logo-150x55.png";s:5:"width";i:150;s:6:"height";i:55;s:9:"mime-type";s:9:"image/png";}s:11:"total-thumb";a:4:{s:4:"file";s:23:"totally-logo-100x55.png";s:5:"width";i:100;s:6:"height";i:55;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				banner-image		</title>
+		<link>https://demo.hashthemes.com/totally/free-wordpress-themes/banner-image/</link>
+		<pubDate>Fri, 05 Apr 2019 04:18:09 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/banner-image.jpg</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>569</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 04:18:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 04:18:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[banner-image]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>246</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/banner-image.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2000;s:6:"height";i:850;s:4:"file";s:24:"2019/04/banner-image.jpg";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"banner-image-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"banner-image-300x128.jpg";s:5:"width";i:300;s:6:"height";i:128;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"banner-image-768x326.jpg";s:5:"width";i:768;s:6:"height";i:326;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"banner-image-1024x435.jpg";s:5:"width";i:1024;s:6:"height";i:435;s:9:"mime-type";s:10:"image/jpeg";}s:21:"total-portfolio-thumb";a:4:{s:4:"file";s:24:"banner-image-400x400.jpg";s:5:"width";i:400;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-team-thumb";a:4:{s:4:"file";s:24:"banner-image-350x420.jpg";s:5:"width";i:350;s:6:"height";i:420;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-blog-thumb";a:4:{s:4:"file";s:24:"banner-image-400x280.jpg";s:5:"width";i:400;s:6:"height";i:280;s:9:"mime-type";s:10:"image/jpeg";}s:11:"total-thumb";a:4:{s:4:"file";s:24:"banner-image-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:17:"total-blog-header";a:4:{s:4:"file";s:24:"banner-image-720x360.jpg";s:5:"width";i:720;s:6:"height";i:360;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2019/04/banner-image.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				pen-papper		</title>
+		<link>https://demo.hashthemes.com/totally/pen-papper/</link>
+		<pubDate>Fri, 05 Apr 2019 04:29:26 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/pen-papper.jpg</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>570</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 04:29:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 04:29:26]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pen-papper]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/pen-papper.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2000;s:6:"height";i:1200;s:4:"file";s:22:"2019/04/pen-papper.jpg";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"pen-papper-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"pen-papper-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:22:"pen-papper-768x461.jpg";s:5:"width";i:768;s:6:"height";i:461;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:23:"pen-papper-1024x614.jpg";s:5:"width";i:1024;s:6:"height";i:614;s:9:"mime-type";s:10:"image/jpeg";}s:21:"total-portfolio-thumb";a:4:{s:4:"file";s:22:"pen-papper-400x400.jpg";s:5:"width";i:400;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-team-thumb";a:4:{s:4:"file";s:22:"pen-papper-350x420.jpg";s:5:"width";i:350;s:6:"height";i:420;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-blog-thumb";a:4:{s:4:"file";s:22:"pen-papper-400x280.jpg";s:5:"width";i:400;s:6:"height";i:280;s:9:"mime-type";s:10:"image/jpeg";}s:11:"total-thumb";a:4:{s:4:"file";s:22:"pen-papper-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:17:"total-blog-header";a:4:{s:4:"file";s:22:"pen-papper-720x360.jpg";s:5:"width";i:720;s:6:"height";i:360;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2019/04/pen-papper.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				discuss		</title>
+		<link>https://demo.hashthemes.com/totally/discuss/</link>
+		<pubDate>Fri, 05 Apr 2019 06:13:46 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/discuss.png</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>574</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 06:13:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 06:13:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[discuss]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/discuss.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2019/04/discuss.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:550;s:4:"file";s:19:"2019/04/discuss.png";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"discuss-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:19:"discuss-273x300.png";s:5:"width";i:273;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:21:"total-portfolio-thumb";a:4:{s:4:"file";s:19:"discuss-400x400.png";s:5:"width";i:400;s:6:"height";i:400;s:9:"mime-type";s:9:"image/png";}s:16:"total-team-thumb";a:4:{s:4:"file";s:19:"discuss-350x420.png";s:5:"width";i:350;s:6:"height";i:420;s:9:"mime-type";s:9:"image/png";}s:16:"total-blog-thumb";a:4:{s:4:"file";s:19:"discuss-400x280.png";s:5:"width";i:400;s:6:"height";i:280;s:9:"mime-type";s:9:"image/png";}s:11:"total-thumb";a:4:{s:4:"file";s:19:"discuss-100x100.png";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:9:"image/png";}s:17:"total-blog-header";a:4:{s:4:"file";s:19:"discuss-500x360.png";s:5:"width";i:500;s:6:"height";i:360;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				Young people business		</title>
+		<link>https://demo.hashthemes.com/totally/services/young-people-business-2/</link>
+		<pubDate>Fri, 05 Apr 2019 07:44:34 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/blog6.jpg</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[Young happy people having modern business together]]>		</excerpt:encoded>
+		<wp:post_id>588</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 07:44:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 07:44:34]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[young-people-business-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>540</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/blog6.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2019/04/blog6.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1000;s:6:"height";i:600;s:4:"file";s:17:"2019/04/blog6.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"blog6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"blog6-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:17:"blog6-768x461.jpg";s:5:"width";i:768;s:6:"height";i:461;s:9:"mime-type";s:10:"image/jpeg";}s:21:"total-portfolio-thumb";a:4:{s:4:"file";s:17:"blog6-400x400.jpg";s:5:"width";i:400;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-team-thumb";a:4:{s:4:"file";s:17:"blog6-350x420.jpg";s:5:"width";i:350;s:6:"height";i:420;s:9:"mime-type";s:10:"image/jpeg";}s:16:"total-blog-thumb";a:4:{s:4:"file";s:17:"blog6-400x280.jpg";s:5:"width";i:400;s:6:"height";i:280;s:9:"mime-type";s:10:"image/jpeg";}s:11:"total-thumb";a:4:{s:4:"file";s:17:"blog6-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:17:"total-blog-header";a:4:{s:4:"file";s:17:"blog6-720x360.jpg";s:5:"width";i:720;s:6:"height";i:360;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"4";s:6:"credit";s:0:"";s:6:"camera";s:21:"Canon EOS 5D Mark III";s:7:"caption";s:50:"Young happy people having modern business together";s:17:"created_timestamp";s:10:"1475679525";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"50";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:7:"0.00625";s:5:"title";s:21:"Young people business";s:11:"orientation";s:1:"1";s:8:"keywords";a:37:{i:0;s:15:"modern business";i:1;s:5:"group";i:2;s:5:"young";i:3;s:6:"people";i:4;s:8:"together";i:5;s:5:"happy";i:6;s:7:"friends";i:7;s:14:"businesspeople";i:8;s:4:"work";i:9;s:11:"brain storm";i:10;s:8:"teamwork";i:11;s:9:"workplace";i:12;s:9:"first job";i:13;s:18:"atmosphere at work";i:14;s:15:"business casual";i:15;s:4:"idea";i:16;s:10:"young team";i:17;s:10:"internship";i:18;s:13:"businesswoman";i:19;s:11:"businessman";i:20;s:9:"corporate";i:21;s:10:"occupation";i:22;s:17:"creative business";i:23;s:7:"project";i:24;s:8:"start up";i:25;s:11:"co-creative";i:26;s:6:"studio";i:27;s:12:"professional";i:28;s:4:"loft";i:29;s:7:"workers";i:30;s:15:"modern interior";i:31;s:6:"office";i:32;s:8:"friendly";i:33;s:10:"freelancer";i:34;s:6:"modern";i:35;s:5:"color";i:36;s:10:"horizontal";}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1739,7 +1643,7 @@
 					<item>
 		<title>
 				We are one of the world&#039;s leading management consulting film		</title>
-		<link>https://demo.hashthemes.com/totally/about-us/</link>
+		<link>https://demo.hashthemes.com/totally/we-are-one-of-the-worlds-leading-management-consulting-film/</link>
 		<pubDate>Wed, 20 Jul 2016 16:59:46 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
 		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=11</guid>
@@ -1771,7 +1675,7 @@
 		<wp:post_date_gmt><![CDATA[2016-07-20 16:59:46]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about-us]]></wp:post_name>
+		<wp:post_name><![CDATA[we-are-one-of-the-worlds-leading-management-consulting-film]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -2070,214 +1974,6 @@ Vel ea nominati scripserit conclusionemque, sed id debitis probatus delicatissim
 							</item>
 					<item>
 		<title>
-				Advanced Analytics Traning		</title>
-		<link>https://demo.hashthemes.com/totally/advanced-analytics-traning/</link>
-		<pubDate>Wed, 20 Jul 2016 18:57:00 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=53</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[Aeque tibique sensibus vis no. Choro corrumpit an est. Cum aliquando persequeris te, ius graeco denique blandit no, ne sit mollis adipisci laboramus. Qui ne soluta recusabo consetetur, duo nemore vivendo cu. Tollit habemus constituto no has, impedit dissentiunt vix in.
-
-Id inani admodum facilisi sea, vim postea posidonium ad. Qui mollis dolorem blandit an. Nam id corrumpit honestatis, ad eos nihil viderer. Atqui assueverit mei ei, in utamur vivendo platonem mei. In evertitur mediocritatem vim, dolore putant his te, cu sed prompta dissentiunt. Ea modo purto molestie vis, sit ex nostro omittam, duo in ignota officiis assueverit. Vix probo ludus quaestio ei.
-
-Sed stet ignota dolorum ne. Ius elitr tantas patrioque in, noster eloquentiam an quo, probo elaboraret ut eum. Nam alii senserit reprimique eu, at usu tota quaeque veritus. Ut eum hinc commodo, mei nostrud noluisse elaboraret te, omnis fastidii est at. Sed minim nihil apeirian ei, libris quidam pertinax ea vim.
-
-Nec paulo quaestio ea. Ridens volumus et usu, at usu splendide aliquando accommodare. Id ridens ancillae per, ad qui veri contentiones. Ex cum autem discere. Mea saepe facilisi recusabo no, an vis scripta molestie omittantur. Meis affert dolorem sit cu.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>53</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 18:57:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 18:57:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[advanced-analytics-traning]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-				Customer Strategy &amp; Marketing		</title>
-		<link>https://demo.hashthemes.com/totally/customer-strategy-marketing/</link>
-		<pubDate>Wed, 20 Jul 2016 19:01:03 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=55</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[Ei est suas impetus, eos invenire periculis et, quodsi eripuit indoctum et sit. Diam omnium utroque no has, molestie scriptorem contentiones te vis. Cibo consul nam ei, no has assum pertinacia. Vix quis concludaturque ne, ut atqui euismod indoctum sed. Mel autem dicta omnes eu, eu per suas tantas antiopam.
-
-Mel dicat simul erroribus et. Nam ridens accommodare ne, utamur corrumpit ad usu. Facer eligendi est cu, solet deleniti qui ne, vis dolorem dissentiunt ex. Ea qui quidam utamur, qui inani periculis sadipscing te, cibo euripidis efficiantur sea ei. Viderer oportere disputationi ex eum, movet eripuit nam ne, nec volumus deleniti appetere ut.
-
-Cu probo lorem labore sed, ut eos fugit hendrerit theophrastus. Eam ne lorem munere, munere copiosae sea no. Ea omnes vulputate honestatis his, voluptua sensibus eu cum. Lorem instructior vix in, et cum mutat munere graeco, eligendi scripserit eos ut. Ponderum pertinax est at, nemore evertitur vis te.
-
-Aperiri vocibus epicuri his ei, eos nihil aliquam nominavi in, eum saperet nusquam hendrerit cu. Tantas partem et his. Ne his nusquam officiis philosophia, nostrum referrentur intellegebat eam id, in audire tritani vis. Per amet inimicus elaboraret eu, aliquam equidem id qui. Te his albucius consulatu.
-
-Est cu scaevola oporteat, veri nostrum partiendo ut usu. Choro partiendo ne sit, et mollis quaerendum per, numquam debitis tractatos ea duo. Ut vitae theophrastus cum. Pri eu wisi etiam, pri no magna bonorum. Sea singulis repudiare ex, pri te nostrud salutatus, ne eam dicunt ornatus sapientem. An has wisi scaevola iudicabit, mucius doctus in cum.
-
-Sit novum partem maiorum ne, ea augue putent aliquip sit, ei mea dicta prodesset dissentias. Maiestatis reformidans cu cum, mazim omnes eos te, verear omnesque repudiare eam no. Eum et partem elaboraret disputationi. Ei quo summo graece persius, qui magna oratio convenire id. Intellegam appellantur at mea, in nam ponderum persecuti efficiendi, ut facer veniam his.
-
-Clita virtute torquatos cu vim, pro an nonumes salutandi intellegebat. No graeci labitur vim. Ad regione antiopam vix, ne usu oblique efficiendi. Euismod imperdiet est an, omittam petentium deseruisse te ius, ne odio utinam vis.
-
-His ea dicunt expetenda, mea quis ullum euismod ea, usu id timeam instructior. Inani timeam urbanitas duo ne, unum nibh aliquid ea mei. Oratio possim vivendum et quo. Sea dicant reprimique eu, stet tempor concludaturque has ea. Eripuit menandri intellegebat qui te.
-
-Commodo vocibus sensibus cu nam, primis partiendo reformidans duo no, his ceteros consulatu ei. Eam ne detracto perpetua omittantur. Vero nulla fierent eu mea, his altera discere ceteros cu. Ei nec omnes dolorem sapientem, inani quaestio posidonium in eam, eam omnium reprimique at. Per et nostro doctus, affert dissentias an has, mea natum veniam omittantur ne. Modo habemus voluptatum quo an, justo exerci mel id.
-
-Ea sumo harum qui. Aperiri feugiat ne vim, ad iudicabit reformidans sed. Vim ut alii suavitate abhorreant, sed an brute vituperatoribus. Vel sint case perpetua eu, et quo eius inimicus. Euismod forensibus vis te, dico modus nam in.
-
-Choro prodesset similique an ius, quas nominavi delicata ea vix solum.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>55</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 19:01:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 19:01:03]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[customer-strategy-marketing]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-				Information Technology		</title>
-		<link>https://demo.hashthemes.com/totally/information-technology/</link>
-		<pubDate>Wed, 20 Jul 2016 19:04:33 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=58</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[Soleat nullam at sed. Delectus interpretaris pri ut. Mea libris repudiare ei, an nec similique complectitur, aliquip regione laoreet ea sea. At illud dicat graece eum, movet latine posidonium mel ex. In eirmod convenire concludaturque vim, id commodo deleniti vis, ei mel enim consetetur. Has in utinam lobortis, fabellas perpetua in duo, in persius deserunt molestiae nam. Eam dicat vivendo expetenda no, et nam legere possim doctus, pro mutat albucius an.
-
-Mucius sanctus ocurreret ad duo. Feugait democritum pro at, vim eu dicat noluisse, mollis lobortis te usu. Ea reque lorem invenire qui, ea vix putent corrumpit. Idque accusamus dignissim eos te, vel no eleifend scriptorem. Dictas eloquentiam eum in. Duo ad saepe assentior posidonium, agam paulo omnes ut sea.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>58</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 19:04:33]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 19:04:33]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[information-technology]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-				Corporate Finance Solutions		</title>
-		<link>https://demo.hashthemes.com/totally/corporate-finance-solutions/</link>
-		<pubDate>Wed, 20 Jul 2016 19:05:32 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=60</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[Cu his convenire conceptam liberavisse, at saepe partem vim. Ea eam odio percipit tractatos. Mei vide voluptatibus te, eirmod percipit gloriatur no eum, in unum putent eam. Vix atqui iusto denique ut, id his choro corpora hendrerit. Vix cu vero voluptatum, sonet dicant accumsan mel ut. Evertitur scribentur nam ei, vel denique adolescens reprehendunt in. No illud regione mei, adhuc ceteros suscipiantur pri id.
-
-Nec cu singulis qualisque, et ridens atomorum sit. Ex cetero moderatius sit. Iusto probatus contentiones est ex, choro intellegat mei ex. Munere cetero sed no, at eirmod mediocritatem cum.
-
-Vero discere ne eam, at senserit signiferumque quo, ex consulatu deseruisse usu. Mea errem labore no, id rebum summo pri, te omnium accommodare nam. Fabellas splendide has ea, cu vivendum indoctum definiebas vim. Sit vidisse complectitur cu, vel sale soleat nemore ne. Ex conceptam abhorreant efficiendi cum, quo tempor tritani ad.
-
-No vel liber nominavi vituperatoribus, mazim aperiri consequuntur ut nec. Tation ornatus eloquentiam ut vim, vidit saperet patrioque ne nam, stet praesent ad est. Has at mazim assentior, et iuvaret propriae voluptatum est. Eam idque labitur no.
-
-Ne eos noster moderatius scripserit, ius tempor option offendit id, ei sit laboramus posidonium. Id sed quaeque impedit, ut ipsum quando eos, nonumy consequuntur eum an. Paulo nominavi ea sea. Vim ea lorem minim.
-
-Vel ea putant aperiri facilis, an qui volutpat voluptaria. Meliore percipit vis ne, eu his augue everti, eius facilis vel id. Dolores deterruisset nam ei, putant concludaturque te eos. No aeterno admodum nec, graeco equidem graecis an duo. Impetus inermis propriae mea ea, dicant graecis constituto an pri. Ad has legendos adolescens, in his etiam augue prodesset. An mea dolorum postulant quaerendum, usu id tale viderer.
-
-Cum te diam referrentur. Molestie argumentum ne pro, mea magna mazim integre no. Mei antiopam partiendo an. Quo putant persius deserunt id, ex labore postulant repudiandae vim. Vix ex posse option appareat. Stet veri mea ut.
-
-No usu wisi legere concludaturque, eos constituto definitionem et. Graeci scripta ex mea, vis suas elitr tincidunt cu. Ea sint repudiare ius, ipsum vitae nec id. Eu nam enim impedit noluisse. Vis clita meliore maiorum et. Probo utinam fastidii eum et, putant nonumes adipisci ei sit, et sale munere pro.
-
-Explicari laboramus cu pro. Dicant laudem fabulas qui cu, et posse quidam vix, labores suavitate voluptatum has et. Cu inani prompta suscipiantur vim, an eum elit commodo. Ut eam causae perpetua, cu facete intellegat duo. Pri aliquip mediocrem te, nemore moderatius at eam. Et eum augue democritum, id duo labores verterem.
-
-Id mea dicit gloriatur, mel ei scripta recteque. Sit harum ponderum mandamus no. Te his dolores rationibus, an est equidem propriae consequat, nam latine aliquid docendi ut. Pri esse iudico offendit ad, qui ea delicata convenire. Mei ei wisi nusquam euripidis.
-
-Salutandi intellegebat et nec, mea et partem laoreet necessitatibus. Pri vide aeque perfecto et, et timeam eruditi eum, aliquip tractatos te sed. Ea vix harum omnesque. Zril tantas usu eu, sea saepe fabellas cu. Vel ex liberavisse comprehensam definitionem, et laoreet scaevola eum, qui assum dolore impedit id. At eos impetus persecuti, volumus fierent sadipscing vim an.
-
-Eu ius tantas mucius mediocrem. In prima minimum invidunt pri, liber senserit sed id. Offendit percipitur mei ei, nam an modo alterum expetenda. Augue admodum ut has, ius minim tacimates praesent an, omnium pericula est ne. Ne ferri audiam eligendi pro, option sanctus nam eu. Ad cum erat autem efficiendi, sale perfecto vix an.
-
-Et quo eruditi meliore, his facete partiendo cu, graeco aeterno nusquam in has. Est an aeterno offendit singulis, ubique aliquam sed cu. Cu mel admodum tincidunt consetetur. Cu vis meis aliquip labitur, sint scripta ne vim, illum lobortis expetenda eu quo. Primis commodo petentium no ius.
-
-Est vidit populo causae ei, vix interesset disputando id, nam diceret inermis nonumes an. No est ullum intellegat repudiandae, nec tota explicari scribentur ei. Vis tempor mucius an, mei ei aperiam virtute legendos, in voluptaria temporibus sed. Ei ullum reformidans signiferumque has, sea ne invenire rationibus, oratio eirmod in mel. Ne eam tritani maiorum, est nostro forensibus et.
-
-Ut ius euismod adolescens. Ex mei iriure option inermis, sed an velit dissentiet adversarium, cum cu exerci graece dicunt. Usu paulo civibus partiendo at, duo eu falli numquam omittantur. Ut zril timeam aeterno pri.
-
-Etiam atomorum conceptam vim id, mel erant urbanitas ei. At veritus maiestatis mel, eos exerci tempor disputando eu, homero graeci theophrastus sea te. Te paulo dolor disputationi ius, per denique eleifend ut. Ad mea lorem dissentiet, usu ullum eirmod voluptatum id, mei at euismod delectus. Sanctus vituperata cum ei, ad eum volumus gloriatur complectitur, erant aperiri iracundia nam in.
-
-Quod amet latine cu pri, cibo reque cotidieque duo ea, mei ei possim definiebas. Quo stet facilis in, dico facer quaestio vis eu, cu sed eirmod expetenda dignissim. Quot meliore ea his, an.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>60</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 19:05:32]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 19:05:32]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[corporate-finance-solutions]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
 				Blog		</title>
 		<link>https://demo.hashthemes.com/totally/blog/</link>
 		<pubDate>Wed, 20 Jul 2016 15:16:29 +0000</pubDate>
@@ -2303,6 +1999,180 @@ Quod amet latine cu pri, cibo reque cotidieque duo ea, mei ei possim definiebas.
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				No Sidebar – Narrow		</title>
+		<link>https://demo.hashthemes.com/totally/2019/04/04/no-sidebar-narrow/</link>
+		<pubDate>Thu, 04 Apr 2019 05:15:58 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=417</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>417</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-04 05:15:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-04 05:15:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[no-sidebar-narrow]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[414]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[416]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+						</title>
+		<link>https://demo.hashthemes.com/totally/2019/04/04/418/</link>
+		<pubDate>Thu, 04 Apr 2019 05:15:58 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=418</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[ ]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>418</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-04 05:15:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-04 05:15:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[418]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[412]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[416]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+						</title>
+		<link>https://demo.hashthemes.com/totally/2019/04/04/419/</link>
+		<pubDate>Thu, 04 Apr 2019 05:15:58 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=419</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[ ]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>419</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-04 05:15:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-04 05:15:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[419]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[410]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[416]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2713,6 +2583,64 @@ Quod amet latine cu pri, cibo reque cotidieque duo ea, mei ei possim definiebas.
 							</item>
 					<item>
 		<title>
+						</title>
+		<link>https://demo.hashthemes.com/totally/2019/04/05/607/</link>
+		<pubDate>Fri, 05 Apr 2019 08:10:46 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?p=607</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[ ]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>607</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 08:10:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 08:10:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[607]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[604]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
 				Sample Page		</title>
 		<link>https://demo.hashthemes.com/totally/sample-page/</link>
 		<pubDate>Wed, 03 Apr 2019 15:56:27 +0000</pubDate>
@@ -2760,251 +2688,210 @@ Quod amet latine cu pri, cibo reque cotidieque duo ea, mei ei possim definiebas.
 							</item>
 					<item>
 		<title>
-				Technology allows non-profit to server		</title>
-		<link>https://demo.hashthemes.com/totally/2016/07/20/technology-allows-non-profit-to-server/</link>
-		<pubDate>Wed, 20 Jul 2016 18:41:47 +0000</pubDate>
+				Advanced Analytics Traning		</title>
+		<link>https://demo.hashthemes.com/totally/advanced-analytics-traning/</link>
+		<pubDate>Wed, 20 Jul 2016 18:57:00 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=27</guid>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=53</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Has zril inermis ex, clita interesset pro ex, dicat scripserit voluptatibus mea at. Eu per tota posse. Accusata dissentias interpretaris vix ne, quas ludus eripuit eos at, id quo elit congue populo. Pri laudem forensibus honestatis ea, ei duo modo maluisset consectetuer.
+				<![CDATA[Aeque tibique sensibus vis no. Choro corrumpit an est. Cum aliquando persequeris te, ius graeco denique blandit no, ne sit mollis adipisci laboramus. Qui ne soluta recusabo consetetur, duo nemore vivendo cu. Tollit habemus constituto no has, impedit dissentiunt vix in.
 
-Ex copiosae placerat lobortis cum, est animal cotidieque ut. At sed graeci prodesset. Nec viris prompta fabellas at, sumo omnium eligendi an qui, mel debitis suscipit omittantur an. Per cu natum albucius reformidans. Nonumy tincidunt sit at, quando graecis delicatissimi ei pri, quo no eius ipsum elitr. Quo ad corpora oportere, novum fuisset et nam, ne sea wisi eligendi.
+Id inani admodum facilisi sea, vim postea posidonium ad. Qui mollis dolorem blandit an. Nam id corrumpit honestatis, ad eos nihil viderer. Atqui assueverit mei ei, in utamur vivendo platonem mei. In evertitur mediocritatem vim, dolore putant his te, cu sed prompta dissentiunt. Ea modo purto molestie vis, sit ex nostro omittam, duo in ignota officiis assueverit. Vix probo ludus quaestio ei.
 
-Ex vel dicam molestie luptatum, te autem mentitum voluptua mea. At mea mollis inermis ocurreret, qui malis nobis inciderint no. Duo ne wisi paulo adipiscing, nec porro mazim atomorum ex. Iusto incorrupte suscipiantur eu cum, eu ius quando veritus. Periculis euripidis appellantur vim et. Ex nec exerci option accusam.]]>		</content:encoded>
+Sed stet ignota dolorum ne. Ius elitr tantas patrioque in, noster eloquentiam an quo, probo elaboraret ut eum. Nam alii senserit reprimique eu, at usu tota quaeque veritus. Ut eum hinc commodo, mei nostrud noluisse elaboraret te, omnis fastidii est at. Sed minim nihil apeirian ei, libris quidam pertinax ea vim.
+
+Nec paulo quaestio ea. Ridens volumus et usu, at usu splendide aliquando accommodare. Id ridens ancillae per, ad qui veri contentiones. Ex cum autem discere. Mea saepe facilisi recusabo no, an vis scripta molestie omittantur. Meis affert dolorem sit cu.]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>27</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 18:41:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 18:41:47]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[technology-allows-non-profit-to-server]]></wp:post_name>
+		<wp:post_id>53</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 18:57:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 18:57:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[advanced-analytics-traning]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="application"><![CDATA[Application]]></category>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[balancing-a-stone]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[548]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[balancing-a-stone__trashed]]></wp:meta_value>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>
-				20th Anniversary of Growing Up Asian in America		</title>
-		<link>https://demo.hashthemes.com/totally/2016/07/20/20th-anniversary-of-growing-up-asian-in-america/</link>
-		<pubDate>Wed, 20 Jul 2016 18:40:04 +0000</pubDate>
+				Customer Strategy &amp; Marketing		</title>
+		<link>https://demo.hashthemes.com/totally/customer-strategy-marketing/</link>
+		<pubDate>Wed, 20 Jul 2016 19:01:03 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=31</guid>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=55</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Laoreet forensibus temporibus id pro. Iisque probatus insolens id sit, assum regione senserit ne cum. Et iusto option consectetuer vim, et has nibh principes, invenire molestiae te mei. Eos ei wisi everti eligendi, vis id audire propriae.
+				<![CDATA[Ei est suas impetus, eos invenire periculis et, quodsi eripuit indoctum et sit. Diam omnium utroque no has, molestie scriptorem contentiones te vis. Cibo consul nam ei, no has assum pertinacia. Vix quis concludaturque ne, ut atqui euismod indoctum sed. Mel autem dicta omnes eu, eu per suas tantas antiopam.
 
-No qui agam persius discere, vel et utinam voluptaria, an est laoreet mnesarchum assueverit. Eam id eirmod oblique, propriae comprehensam id pri. Nemore laoreet disputando id mea. Ne pro dolor fabulas atomorum, pri id euismod facilisi. Et etiam propriae per. Legendos conclusionemque ad ius, quot impedit expetendis ut vis.
+Mel dicat simul erroribus et. Nam ridens accommodare ne, utamur corrumpit ad usu. Facer eligendi est cu, solet deleniti qui ne, vis dolorem dissentiunt ex. Ea qui quidam utamur, qui inani periculis sadipscing te, cibo euripidis efficiantur sea ei. Viderer oportere disputationi ex eum, movet eripuit nam ne, nec volumus deleniti appetere ut.
 
-Ne albucius imperdiet iracundia quo. Ad ius lorem ridens interesset. Qui munere dolore ad, ut recteque sententiae nam. Ne sed propriae offendit, qui debet fastidii instructior at. Nam no graece regione persecuti, sea fugit integre te. No usu constituam neglegentur, te erat civibus quo, mel velit quodsi scaevola te.
+Cu probo lorem labore sed, ut eos fugit hendrerit theophrastus. Eam ne lorem munere, munere copiosae sea no. Ea omnes vulputate honestatis his, voluptua sensibus eu cum. Lorem instructior vix in, et cum mutat munere graeco, eligendi scripserit eos ut. Ponderum pertinax est at, nemore evertitur vis te.
 
-Vix case choro semper ne, vis choro libris labores ut. Cum ea alia quaeque expetendis, eu hinc quaestio forensibus vix, eum inani nostro interesset at. Cum dico complectitur cu, mel placerat percipitur ei, novum nostrud per cu. Cum alia nullam forensibus in.
+Aperiri vocibus epicuri his ei, eos nihil aliquam nominavi in, eum saperet nusquam hendrerit cu. Tantas partem et his. Ne his nusquam officiis philosophia, nostrum referrentur intellegebat eam id, in audire tritani vis. Per amet inimicus elaboraret eu, aliquam equidem id qui. Te his albucius consulatu.
 
-Ex sit dolores prodesset deseruisse, vide ferri graecis nec et. Lorem dolorum delicata vim id, ei illud fuisset gloriatur pri, ut vis modo mandamus disputando. Wisi prompta splendide sed eu, ea his virtute menandri adolescens. Vim at libris graeci accusamus, id debitis vocibus definitionem vix.]]>		</content:encoded>
+Est cu scaevola oporteat, veri nostrum partiendo ut usu. Choro partiendo ne sit, et mollis quaerendum per, numquam debitis tractatos ea duo. Ut vitae theophrastus cum. Pri eu wisi etiam, pri no magna bonorum. Sea singulis repudiare ex, pri te nostrud salutatus, ne eam dicunt ornatus sapientem. An has wisi scaevola iudicabit, mucius doctus in cum.
+
+Sit novum partem maiorum ne, ea augue putent aliquip sit, ei mea dicta prodesset dissentias. Maiestatis reformidans cu cum, mazim omnes eos te, verear omnesque repudiare eam no. Eum et partem elaboraret disputationi. Ei quo summo graece persius, qui magna oratio convenire id. Intellegam appellantur at mea, in nam ponderum persecuti efficiendi, ut facer veniam his.
+
+Clita virtute torquatos cu vim, pro an nonumes salutandi intellegebat. No graeci labitur vim. Ad regione antiopam vix, ne usu oblique efficiendi. Euismod imperdiet est an, omittam petentium deseruisse te ius, ne odio utinam vis.
+
+His ea dicunt expetenda, mea quis ullum euismod ea, usu id timeam instructior. Inani timeam urbanitas duo ne, unum nibh aliquid ea mei. Oratio possim vivendum et quo. Sea dicant reprimique eu, stet tempor concludaturque has ea. Eripuit menandri intellegebat qui te.
+
+Commodo vocibus sensibus cu nam, primis partiendo reformidans duo no, his ceteros consulatu ei. Eam ne detracto perpetua omittantur. Vero nulla fierent eu mea, his altera discere ceteros cu. Ei nec omnes dolorem sapientem, inani quaestio posidonium in eam, eam omnium reprimique at. Per et nostro doctus, affert dissentias an has, mea natum veniam omittantur ne. Modo habemus voluptatum quo an, justo exerci mel id.
+
+Ea sumo harum qui. Aperiri feugiat ne vim, ad iudicabit reformidans sed. Vim ut alii suavitate abhorreant, sed an brute vituperatoribus. Vel sint case perpetua eu, et quo eius inimicus. Euismod forensibus vis te, dico modus nam in.
+
+Choro prodesset similique an ius, quas nominavi delicata ea vix solum.]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>31</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 18:40:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 18:40:04]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[20th-anniversary-of-growing-up-asian-in-america]]></wp:post_name>
+		<wp:post_id>55</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 19:01:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 19:01:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[customer-strategy-marketing]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[chess-player]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[556]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[chess-player__trashed]]></wp:meta_value>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>
-				Tips to make your workforce a security front line		</title>
-		<link>https://demo.hashthemes.com/totally/2016/07/20/tips-to-make-your-workforce-a-security-front-line/</link>
-		<pubDate>Wed, 20 Jul 2016 18:41:01 +0000</pubDate>
+				Information Technology		</title>
+		<link>https://demo.hashthemes.com/totally/information-technology/</link>
+		<pubDate>Wed, 20 Jul 2016 19:04:33 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=34</guid>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=58</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Scaevola appetere eu est, an ius quod postulant scribentur. Munere nostrud quo et. Quodsi persecuti conceptam eum no, case ullum dolorem ius cu, ea sea mucius intellegebat. Ponderum volutpat molestiae est ex. Eos quidam scriptorem et, eos habemus reprehendunt cu. Vix at purto ubique luptatum, putent dolorum scriptorem ut nam, sea iusto salutandi eu.
+				<![CDATA[Soleat nullam at sed. Delectus interpretaris pri ut. Mea libris repudiare ei, an nec similique complectitur, aliquip regione laoreet ea sea. At illud dicat graece eum, movet latine posidonium mel ex. In eirmod convenire concludaturque vim, id commodo deleniti vis, ei mel enim consetetur. Has in utinam lobortis, fabellas perpetua in duo, in persius deserunt molestiae nam. Eam dicat vivendo expetenda no, et nam legere possim doctus, pro mutat albucius an.
 
-Eu duo eruditi deserunt pericula, cum diceret accusamus ex, per no paulo noluisse incorrupte. Ex vix persius consulatu, quaeque ponderum ne sea. Et sit dicit homero soluta, eum enim esse perfecto at, mea omnes alterum minimum cu. Sit tempor vivendo scribentur id, cum facer commodo corrumpit ex, nobis sanctus reprehendunt mel id. Ea vidit nullam primis nam, nisl hendrerit deterruisset vis at, ex est nostrud labores.
-
-Sit ut saepe maluisset. Has mazim vivendum mnesarchum te, facer zril constituam pro ea. Animal reformidans eu eam. Ex vim falli exerci perpetua, eu his vero invenire. Habeo velit discere at pro, meis novum an duo. His sale mediocrem cu.
-
-Id alterum ancillae repudiare mel, atomorum neglegentur et usu, has purto civibus salutatus ex. Ea aperiri suscipit intellegam mea, qui ne aperiam graecis. Autem oportere eos eu. An has accusam dolores mediocrem. Duo ea nulla semper, tacimates dissentiet deterruisset mea ad.
-
-Pri id summo veritus, quo admodum probatus tincidunt in. His ei minim assueverit. Oratio persecuti delicatissimi vel eu. Ex alii reque per. Diceret definitionem mediocritatem cum cu, ius consul tacimates sadipscing ut, no duo legere audiam accommodare. Sit ex mentitum honestatis, ex usu facer saepe primis.]]>		</content:encoded>
+Mucius sanctus ocurreret ad duo. Feugait democritum pro at, vim eu dicat noluisse, mollis lobortis te usu. Ea reque lorem invenire qui, ea vix putent corrumpit. Idque accusamus dignissim eos te, vel no eleifend scriptorem. Dictas eloquentiam eum in. Duo ad saepe assentior posidonium, agam paulo omnes ut sea.]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 18:41:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 18:41:01]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[tips-to-make-your-workforce-a-security-front-line]]></wp:post_name>
+		<wp:post_id>58</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 19:04:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 19:04:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[information-technology]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[silence-breeze]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[550]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[silence-breeze__trashed]]></wp:meta_value>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>
-				7 creative ways to address gaps in IT resources		</title>
-		<link>https://demo.hashthemes.com/totally/2016/07/20/7-creative-ways-to-address-gaps-in-it-resources/</link>
-		<pubDate>Wed, 20 Jul 2016 18:42:44 +0000</pubDate>
+				Corporate Finance Solutions		</title>
+		<link>https://demo.hashthemes.com/totally/corporate-finance-solutions/</link>
+		<pubDate>Wed, 20 Jul 2016 19:05:32 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=39</guid>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=60</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Vis quis assum ludus cu. Cu zril postulant vix. Vim cu noster vidisse, in doctus nonumes pertinax cum. Magna utinam menandri ex eos, ne aeque atomorum pro, vide nonumy deleniti cu vel. Has ei aperiam facilisi consetetur.
+				<![CDATA[Cu his convenire conceptam liberavisse, at saepe partem vim. Ea eam odio percipit tractatos. Mei vide voluptatibus te, eirmod percipit gloriatur no eum, in unum putent eam. Vix atqui iusto denique ut, id his choro corpora hendrerit. Vix cu vero voluptatum, sonet dicant accumsan mel ut. Evertitur scribentur nam ei, vel denique adolescens reprehendunt in. No illud regione mei, adhuc ceteros suscipiantur pri id.
 
-Offendit noluisse vulputate ut vix, vis dicunt nominavi no. Dolore omnium mea ex, id perpetua praesent dissentias eam, iisque forensibus vim ad. In duo cibo eloquentiam signiferumque, pro ex minim eruditi dissentiet. Ad perpetua voluptatibus vis. Qui id quis reprimique concludaturque.
+Nec cu singulis qualisque, et ridens atomorum sit. Ex cetero moderatius sit. Iusto probatus contentiones est ex, choro intellegat mei ex. Munere cetero sed no, at eirmod mediocritatem cum.
 
-Modus imperdiet te est. Recusabo mandamus eu quo. Ut mel nibh omnis regione, vim te quod invidunt. Eu consequat disputando mei, eos eu tempor legimus phaedrum, illud nostrud salutandi et sit. In mentitum democritum his. Eum mutat nemore dicunt eu, novum fastidii dignissim sit at, ea maiorum cotidieque vim.
+Vero discere ne eam, at senserit signiferumque quo, ex consulatu deseruisse usu. Mea errem labore no, id rebum summo pri, te omnium accommodare nam. Fabellas splendide has ea, cu vivendum indoctum definiebas vim. Sit vidisse complectitur cu, vel sale soleat nemore ne. Ex conceptam abhorreant efficiendi cum, quo tempor tritani ad.
 
-Sed epicurei perpetua dissentiet eu, quo quodsi animal ex, et est erant fuisset pertinacia. Eu eum oratio putant. Reprimique definitionem no qui, tincidunt quaerendum eam ei, pri ei elitr omnesque imperdiet. Omittam dissentias eum ea, mazim molestie voluptaria per et.
+No vel liber nominavi vituperatoribus, mazim aperiri consequuntur ut nec. Tation ornatus eloquentiam ut vim, vidit saperet patrioque ne nam, stet praesent ad est. Has at mazim assentior, et iuvaret propriae voluptatum est. Eam idque labitur no.
 
-Nec impetus postulant ad. Quo ad nisl doctus, causae facilisis usu no. Ea posse percipit mea, eu eam verear singulis adipisci. Quem quas discere ei vel.
+Ne eos noster moderatius scripserit, ius tempor option offendit id, ei sit laboramus posidonium. Id sed quaeque impedit, ut ipsum quando eos, nonumy consequuntur eum an. Paulo nominavi ea sea. Vim ea lorem minim.
 
-Vis veri impetus an, inciderint referrentur ius ex. Vis ut fugit integre. Ea eos blandit reprimique. Vis cu animal feugait, veniam indoctum ne duo, nullam conceptam vim te. Ipsum sonet detraxit mea ne, mea at dictas dolorem, at mel amet exerci moderatius. Ius quem ridens antiopam an, ius justo nominavi partiendo ne.
+Vel ea putant aperiri facilis, an qui volutpat voluptaria. Meliore percipit vis ne, eu his augue everti, eius facilis vel id. Dolores deterruisset nam ei, putant concludaturque te eos. No aeterno admodum nec, graeco equidem graecis an duo. Impetus inermis propriae mea ea, dicant graecis constituto an pri. Ad has legendos adolescens, in his etiam augue prodesset. An mea dolorum postulant quaerendum, usu id tale viderer.
 
-In nam assum primis tritani, utamur praesent ius ne. Per sale tantas ornatus an, eum odio aperiri no, ei his detraxit assentior. Purto corrumpit eu vim, eirmod admodum interpretaris sit eu. Magna graeco gubergren at duo, facer discere his an. Ea nibh sapientem expetendis mea, nec ei omnes eligendi.
+Cum te diam referrentur. Molestie argumentum ne pro, mea magna mazim integre no. Mei antiopam partiendo an. Quo putant persius deserunt id, ex labore postulant repudiandae vim. Vix ex posse option appareat. Stet veri mea ut.
 
-Vix porro luptatum honestatis cu. Has sumo voluptatibus id. Te usu vidit oratio adipiscing. Semper epicurei partiendo ut est. Sint epicurei in usu. Mel inermis periculis persequeris cu, ad singulis instructior quo, cu mei doming adversarium. Ei alienum pertinacia cum, nec ex posse phaedrum torquatos.
+No usu wisi legere concludaturque, eos constituto definitionem et. Graeci scripta ex mea, vis suas elitr tincidunt cu. Ea sint repudiare ius, ipsum vitae nec id. Eu nam enim impedit noluisse. Vis clita meliore maiorum et. Probo utinam fastidii eum et, putant nonumes adipisci ei sit, et sale munere pro.
 
-Mel atomorum aliquando at, cum eu quando propriae philosophia, an mel graece labitur. Mel eu quot posidonium, debet audiam assentior vis te. Nonumes molestiae quo cu, voluptaria repudiandae sea ea, vel an animal accusam adipiscing. Vivendo mnesarchum consequuntur no cum.
+Explicari laboramus cu pro. Dicant laudem fabulas qui cu, et posse quidam vix, labores suavitate voluptatum has et. Cu inani prompta suscipiantur vim, an eum elit commodo. Ut eam causae perpetua, cu facete intellegat duo. Pri aliquip mediocrem te, nemore moderatius at eam. Et eum augue democritum, id duo labores verterem.
 
-No nam amet inani dolore, stet error elaboraret pri eu, te nec erat vivendum. Est et ceteros fastidii. Ne indoctum inciderint philosophia sea, tibique singulis sententiae sea ei. Quo cu mutat augue legere, vim tota congue ei. Ut ludus utinam vel, vis audire graecis vivendum ne.
+Id mea dicit gloriatur, mel ei scripta recteque. Sit harum ponderum mandamus no. Te his dolores rationibus, an est equidem propriae consequat, nam latine aliquid docendi ut. Pri esse iudico offendit ad, qui ea delicata convenire. Mei ei wisi nusquam euripidis.
 
-At pro eros disputationi consequuntur, sit vide tacimates sententiae cu. Id saperet maiestatis scribentur mel. Eligendi persequeris pri cu. Per scripserit omittantur ei, disputationi definitionem an per, ad eius decore perfecto pri. Eu sonet euismod reprimique per. Est veri iudicabit conceptam cu.
+Salutandi intellegebat et nec, mea et partem laoreet necessitatibus. Pri vide aeque perfecto et, et timeam eruditi eum, aliquip tractatos te sed. Ea vix harum omnesque. Zril tantas usu eu, sea saepe fabellas cu. Vel ex liberavisse comprehensam definitionem, et laoreet scaevola eum, qui assum dolore impedit id. At eos impetus persecuti, volumus fierent sadipscing vim an.
 
-An ipsum aeterno vivendo eam. Legere appareat elaboraret sed an, ponderum detraxit eloquentiam pro in. Eam ne illud decore, ex pri animal repudiare. Te saepe sententiae moderatius vix, bonorum ponderum petentium est et. Pro modo tamquam ocurreret an. Melius persius ne usu, id option tamquam efficiendi nec.
+Eu ius tantas mucius mediocrem. In prima minimum invidunt pri, liber senserit sed id. Offendit percipitur mei ei, nam an modo alterum expetenda. Augue admodum ut has, ius minim tacimates praesent an, omnium pericula est ne. Ne ferri audiam eligendi pro, option sanctus nam eu. Ad cum erat autem efficiendi, sale perfecto vix an.
 
-Iusto ornatus accusam te pri, impetus partiendo suavitate id usu. Quo in dicant ubique pertinacia, eu vis pericula consequat philosophia. Deserunt similique ad sea. Ne nec inermis vituperata, vis at esse facilisi, eu vix viris iracundia. Possim adversarium consequuntur cu vim, vel ei meis dicit, ius an minim signiferumque.
+Et quo eruditi meliore, his facete partiendo cu, graeco aeterno nusquam in has. Est an aeterno offendit singulis, ubique aliquam sed cu. Cu mel admodum tincidunt consetetur. Cu vis meis aliquip labitur, sint scripta ne vim, illum lobortis expetenda eu quo. Primis commodo petentium no ius.
 
-Nam laudem alterum ornatus ei, mea verear imperdiet id. Case accusata mediocrem nam ut. Vel fabellas oporteat conceptam ea. Per an tacimates periculis. Has meliore tincidunt ex, errem dolore et vis. Qui te quodsi commodo elaboraret, no mel nihil delenit, ius ex veritus intellegat quaerendum.
+Est vidit populo causae ei, vix interesset disputando id, nam diceret inermis nonumes an. No est ullum intellegat repudiandae, nec tota explicari scribentur ei. Vis tempor mucius an, mei ei aperiam virtute legendos, in voluptaria temporibus sed. Ei ullum reformidans signiferumque has, sea ne invenire rationibus, oratio eirmod in mel. Ne eam tritani maiorum, est nostro forensibus et.
 
-Ut solet iriure salutatus nec, sanctus moderatius sit ex, congue inermis perpetua et duo. Eos ad semper equidem epicurei, cu pro timeam accusata. His persius consetetur et. Te usu dicant facilis. Denique vulputate pri ad.
+Ut ius euismod adolescens. Ex mei iriure option inermis, sed an velit dissentiet adversarium, cum cu exerci graece dicunt. Usu paulo civibus partiendo at, duo eu falli numquam omittantur. Ut zril timeam aeterno pri.
 
-Vis tractatos comprehensam at, his eu accumsan repudiare prodesset. Ne bonorum docendi nec, eam ut vitae soleat imperdiet, ex qui enim suscipit. Te quaeque philosophia sit, cu sonet elitr qualisque his. Eam elitr maiorum sadipscing at, probo quando accusata ex duo. Officiis iudicabit eu has. Ex mei illum conceptam assueverit. Malis dolorum salutandi nec ne.
+Etiam atomorum conceptam vim id, mel erant urbanitas ei. At veritus maiestatis mel, eos exerci tempor disputando eu, homero graeci theophrastus sea te. Te paulo dolor disputationi ius, per denique eleifend ut. Ad mea lorem dissentiet, usu ullum eirmod voluptatum id, mei at euismod delectus. Sanctus vituperata cum ei, ad eum volumus gloriatur complectitur, erant aperiri iracundia nam in.
 
-Eu iuvaret tacimates sapientem nec, id qui quidam omnium. No usu cetero conclusionemque. Id vis purto veritus accommodare, no vim tempor civibus blandit. Nec deserunt recusabo id, mei in case tamquam adversarium.
-
-Ei harum ancillae sit. Pri probo etiam et, commune signiferumque ut vix. Vel te omnesque contentiones, an mel dolores gubergren. Dico erant deseruisse ut ius, pro altera mnesarchum ad.
-
-Utroque albucius ea duo, eius nonumy noster eum eu, graeci tacimates pri ne. Nec et quot iusto labitur, doctus nostrum probatus ei mei. Ei autem iusto sed. Vim at assum ullamcorper, per corrumpit constituam at. Denique ponderum laboramus duo ut, sumo.]]>		</content:encoded>
+Quod amet latine cu pri, cibo reque cotidieque duo ea, mei ei possim definiebas. Quo stet facilis in, dico facer quaestio vis eu, cu sed eirmod expetenda dignissim. Quot meliore ea his, an.]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>39</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-20 18:42:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-20 18:42:44]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[7-creative-ways-to-address-gaps-in-it-resources]]></wp:post_name>
+		<wp:post_id>60</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 19:05:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 19:05:32]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[corporate-finance-solutions]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[delicious-spaghetti]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[551]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
-		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[delicious-spaghetti__trashed]]></wp:meta_value>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -3016,15 +2903,29 @@ Utroque albucius ea duo, eius nonumy noster eum eu, graeci tacimates pri ne. Nec
 		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=63</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Verear quaestio efficiantur ut est, munere scaevola splendide an nam. Case labore vim ex, mei congue aeterno laboramus ex. Mea eu facer nominavi persecuti. Bonorum pericula dissentiunt vix et, ponderum adipiscing te mei.
+				<![CDATA[<!-- wp:image {"id":522,"align":"right","width":335,"height":335} -->
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/team-10.jpg" alt="" class="wp-image-522" width="335" height="335"/></figure></div>
+<!-- /wp:image -->
 
-Iudicabit repudiare consectetuer quo ex, facete fastidii eos et. Vitae concludaturque qui et, an sit diam mediocritatem concludaturque, ius id tota autem nemore. At mundi libris conceptam pri, esse nulla aperiam et mel, saepe deserunt cu eam. Dicam vituperata et vel, et nam eros aliquid philosophia, fierent vituperata id duo. Ex saperet delicata consequuntur mel, vim pertinax maluisset te.
+<!-- wp:paragraph -->
+<p>Verear quaestio efficiantur ut est, munere scaevola splendide an nam. Case labore vim ex, mei congue aeterno laboramus ex. Mea eu facer nominavi persecuti. Bonorum pericula dissentiunt vix et, ponderum adipiscing te mei.</p>
+<!-- /wp:paragraph -->
 
-In vix adipisci patrioque. Nam ex latine adipiscing, mea latine nominavi an. No wisi semper sententiae pro, et essent dicunt integre duo. Ex sit porro inermis dolorem, diam ludus expetenda ius at. Pri meis tantas mollis at, ne dico qualisque vituperata his.
+<!-- wp:paragraph -->
+<p>Iudicabit repudiare consectetuer quo ex, facete fastidii eos et. Vitae concludaturque qui et, an sit diam mediocritatem concludaturque, ius id tota autem nemore. At mundi libris conceptam pri, esse nulla aperiam et mel, saepe deserunt cu eam. Dicam vituperata et vel, et nam eros aliquid philosophia, fierent vituperata id duo. Ex saperet delicata consequuntur mel, vim pertinax maluisset te.</p>
+<!-- /wp:paragraph -->
 
-Facilisi electram conceptam id sea, suas stet neglegentur cum id. Veniam detracto vel eu, legere meliore vim no, an eam nihil epicuri intellegam. Dolorum vivendo at sed. Veri dicunt adolescens ei pri, vim an labores appellantur.
+<!-- wp:paragraph -->
+<p>In vix adipisci patrioque. Nam ex latine adipiscing, mea latine nominavi an. No wisi semper sententiae pro, et essent dicunt integre duo. Ex sit porro inermis dolorem, diam ludus expetenda ius at. Pri meis tantas mollis at, ne dico qualisque vituperata his.</p>
+<!-- /wp:paragraph -->
 
-Cum at commodo efficiantur. Decore adolescens reprimique ut sea, vel cu oratio argumentum. Eos ei saepe vitae, erat delectus ius ad, eu eos senserit iudicabit. In per eius numquam. Falli epicuri ancillae ne mei, mollis labores nec cu. Usu eu quod pericula, his rebum sonet facilis ut, dolores sententiae eu usu. Nec errem ludus te, quando doming expetendis vel ea, electram consequat consequuntur ei eos.]]>		</content:encoded>
+<!-- wp:paragraph -->
+<p>Facilisi electram conceptam id sea, suas stet neglegentur cum id. Veniam detracto vel eu, legere meliore vim no, an eam nihil epicuri intellegam. Dolorum vivendo at sed. Veri dicunt adolescens ei pri, vim an labores appellantur.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cum at commodo efficiantur. Decore adolescens reprimique ut sea, vel cu oratio argumentum. Eos ei saepe vitae, erat delectus ius ad, eu eos senserit iudicabit. In per eius numquam. Falli epicuri ancillae ne mei, mollis labores nec cu. Usu eu quod pericula, his rebum sonet facilis ut, dolores sententiae eu usu. Nec errem ludus te, quando doming expetendis vel ea, electram consequat consequuntur ei eos.</p>
+<!-- /wp:paragraph -->]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[Verear quaestio efficiantur ut est, munere scaevola splendide an nam. Case labore vim ex, mei congue. Mea eu facer nominavi persecuti. ]]>		</excerpt:encoded>
 		<wp:post_id>63</wp:post_id>
@@ -3065,11 +2966,25 @@ Cum at commodo efficiantur. Decore adolescens reprimique ut sea, vel cu oratio a
 		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=69</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Qui altera nostrum patrioque cu, nisl viris tantas per id. Debet placerat expetendis cum ex, no elit elaboraret reformidans ius. Cu has falli liber aliquid, nonumes veritus liberavisse his eu. Pri hinc elit eius eu.
+				<![CDATA[<!-- wp:image {"id":519,"align":"right","width":343,"height":343} -->
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/team-8.jpg" alt="" class="wp-image-519" width="343" height="343"/></figure></div>
+<!-- /wp:image -->
 
-Ei sed unum legimus. Ex mundi dicunt omnium nec, at nec vocibus senserit principes, no porro signiferumque est. At quo quis sententiae, novum latine eu quo. Mei ex consul labore percipit.
+<!-- wp:paragraph -->
+<p>Qui altera nostrum patrioque cu, nisl viris tantas per id. Debet placerat expetendis cum ex, no elit elaboraret reformidans ius. Cu has falli liber aliquid, nonumes veritus liberavisse his eu. Pri hinc elit eius eu.</p>
+<!-- /wp:paragraph -->
 
-In cum reque cetero noluisse, at per denique accusamus dignissim. Populo accusata sea no, probo scaevola constituto vis ex. Cu tempor similique vis, vix probo audiam efficiendi ut, nec laudem patrioque reprehendunt id. Eam ne admodum delicatissimi.]]>		</content:encoded>
+<!-- wp:paragraph -->
+<p>Ei sed unum legimus. Ex mundi dicunt omnium nec, at nec vocibus senserit principes, no porro signiferumque est. At quo quis sententiae, novum latine eu quo. Mei ex consul labore percipit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In cum reque cetero noluisse, at per denique accusamus dignissim. Populo accusata sea no, probo scaevola constituto vis ex. Cu tempor similique vis, vix probo audiam efficiendi ut, nec laudem patrioque reprehendunt id. Eam ne admodum delicatissimi. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Scelerisque fermentum dui faucibus in ornare. Porttitor lacus luctus accumsan tortor posuere ac. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Cursus eget nunc scelerisque viverra mauris in. Nam aliquam sem et tortor. Laoreet id donec ultrices tincidunt arcu non sodales neque. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Diam in arcu cursus euismod quis viverra nibh. Morbi tristique senectus et netus et.&nbsp;</p>
+<!-- /wp:paragraph -->]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[Qui altera nostrum patrioque cu, nisl viris tantas per id. Debet placerat expetendis cum ex, no elit elaboraret reformidans ius. Cu has falli liber aliquid.]]>		</excerpt:encoded>
 		<wp:post_id>69</wp:post_id>
@@ -3110,11 +3025,25 @@ In cum reque cetero noluisse, at per denique accusamus dignissim. Populo accusat
 		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=71</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Dicat tantas quo eu, in novum nostro mea. Dicant euismod vulputate est et. Qui solet putent ea, mea partem labitur corrumpit in, sea at iriure eripuit dolorum. Eu posse homero possit eum, wisi labore appellantur quo ut. Vix ut libris incorrupte, at vix stet labitur. Ne omnium graecis nusquam eum, no exerci vidisse dissentiunt vis. His eligendi deseruisse et, partem reformidans pro an.
+				<![CDATA[<!-- wp:image {"id":521,"align":"right","width":322,"height":322} -->
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/team-17.jpg" alt="" class="wp-image-521" width="322" height="322"/></figure></div>
+<!-- /wp:image -->
 
-Ad munere persius docendi his, mundi utroque necessitatibus in pri. Ea eam mutat deseruisse, ea mundi detracto probatus cum, cu qui clita periculis. Ad ius euismod reprimique. Voluptua adipiscing sit cu. In mei viris oblique tibique, ne quando vivendo mel. Te ferri suavitate dissentias vel, et nec iriure sapientem cotidieque, vocent aperiri ceteros vim ea.
+<!-- wp:paragraph -->
+<p>Dicat tantas quo eu, in novum nostro mea. Dicant euismod vulputate est et. Qui solet putent ea, mea partem labitur corrumpit in, sea at iriure eripuit dolorum. Eu posse homero possit eum, wisi labore appellantur quo ut. Vix ut libris incorrupte, at vix stet labitur. Ne omnium graecis nusquam eum, no exerci vidisse dissentiunt vis. His eligendi deseruisse et, partem reformidans pro an.</p>
+<!-- /wp:paragraph -->
 
-Ancillae delicata aliquando eam at. Possim nostrud accusamus ad per, clita platonem expetenda duo at. At sed quaeque alterum rationibus. Vide doming saperet no qui, sed autem legendos interpretaris ei, possit definiebas cum ne.]]>		</content:encoded>
+<!-- wp:paragraph -->
+<p>Ad munere persius docendi his, mundi utroque necessitatibus in pri. Ea eam mutat deseruisse, ea mundi detracto probatus cum, cu qui clita periculis. Ad ius euismod reprimique. Voluptua adipiscing sit cu. In mei viris oblique tibique, ne quando vivendo mel. Te ferri suavitate dissentias vel, et nec iriure sapientem cotidieque, vocent aperiri ceteros vim ea.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ancillae delicata aliquando eam at. Possim nostrud accusamus ad per, clita platonem expetenda duo at. At sed quaeque alterum rationibus. Vide doming saperet no qui, sed autem legendos interpretaris ei, possit definiebas cum ne.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Diam in arcu cursus euismod quis viverra nibh. Morbi tristique senectus et netus et. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Tincidunt lobortis feugiat vivamus at augue eget. Sit amet purus gravida quis blandit turpis.</p>
+<!-- /wp:paragraph -->]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[Dicat tantas quo eu, in novum nostro mea. Dicant euismod vulputate est et. Qui solet putent ea, mea partem labitur in, sea at iriure eripuit dolorum.]]>		</excerpt:encoded>
 		<wp:post_id>71</wp:post_id>
@@ -3155,11 +3084,25 @@ Ancillae delicata aliquando eam at. Possim nostrud accusamus ad per, clita plato
 		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=74</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Esse erant duo ad. His id vero commodo delenit. Fierent perpetua efficiantur ex his. Ea soluta scripta equidem pro, ius ut iusto graeci, et nam prodesset voluptatibus. Ullum electram sit ex.
+				<![CDATA[<!-- wp:image {"id":520,"align":"right","width":319,"height":319} -->
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/team-5.jpg" alt="" class="wp-image-520" width="319" height="319"/></figure></div>
+<!-- /wp:image -->
 
-Eum ad ignota equidem, ut dicta nobis ponderum sea. Vis decore timeam ex, brute imperdiet eam ei. Persecuti efficiendi an quo. Tota labores nam te, et elitr aliquam suavitate per. Ne hinc patrioque deterruisset per. In choro meliore dolores pri, usu ut falli zril perfecto, mel debitis nominati in.
+<!-- wp:paragraph -->
+<p>Esse erant duo ad. His id vero commodo delenit. Fierent perpetua efficiantur ex his. Ea soluta scripta equidem pro, ius ut iusto graeci, et nam prodesset voluptatibus. Ullum electram sit ex.</p>
+<!-- /wp:paragraph -->
 
-Te usu decore equidem, no sed vitae evertitur, sint tamquam posidonium et est. Latine fastidii no qui, eu est probo option prompta. Choro verear ad has. Ne debitis inermis cum, verear persius quo ad, et ius bonorum fastidii moderatius.]]>		</content:encoded>
+<!-- wp:paragraph -->
+<p>Eum ad ignota equidem, ut dicta nobis ponderum sea. Vis decore timeam ex, brute imperdiet eam ei. Persecuti efficiendi an quo. Tota labores nam te, et elitr aliquam suavitate per. Ne hinc patrioque deterruisset per. In choro meliore dolores pri, usu ut falli zril perfecto, mel debitis nominati in.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Te usu decore equidem, no sed vitae evertitur, sint tamquam posidonium et est. Latine fastidii no qui, eu est probo option prompta. Choro verear ad has. Ne debitis inermis cum, verear persius quo ad, et ius bonorum fastidii moderatius.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Diam in arcu cursus euismod quis viverra nibh. Morbi tristique senectus et netus et. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Tincidunt lobortis feugiat vivamus at augue eget. Sit amet purus gravida quis blandit turpis.</p>
+<!-- /wp:paragraph -->]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[Esse erant duo ad. His id vero commodo delenit. Fierent perpetua efficiantur ex his. Ea soluta scripta equidem pro, ius ut iusto graeci, et nam.]]>		</excerpt:encoded>
 		<wp:post_id>74</wp:post_id>
@@ -3200,7 +3143,15 @@ Te usu decore equidem, no sed vitae evertitur, sint tamquam posidonium et est. L
 		<guid isPermaLink="false">http://demo.hashthemes.com/total/?page_id=101</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[[contact-form-7 id="156" title="Contact form 1"]]]>		</content:encoded>
+				<![CDATA[<!-- wp:shortcode -->
+[contact-form-7 id="156" title="Contact form 1"]
+<!-- /wp:shortcode -->
+
+<!-- wp:spacer {"height":30} -->
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.36297142932!2d-77.08461552967613!3d38.89370913932196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7fc56b4cef9%3A0x32dcc71fc8db77c2!2sHoward+University!5e0!3m2!1sen!2snp!4v1554450959969!5m2!1sen!2snp" width="800" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>101</wp:post_id>
@@ -3216,57 +3167,16 @@ Te usu decore equidem, no sed vitae evertitur, sint tamquam posidonium et est. L
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>
-				Puzzle		</title>
-		<link>https://demo.hashthemes.com/totally/2016/07/24/puzzle/</link>
-		<pubDate>Sun, 24 Jul 2016 06:08:07 +0000</pubDate>
-		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=111</guid>
-		<description></description>
-		<content:encoded>
-				<![CDATA[Cu diam fuisset cum, mea ex idque intellegebat, agam option timeam sit in. Eu quidam eruditi vix. Nemore utroque accusata no vis, usu id labore incorrupte. Ius ea debet deleniti accusamus. Usu quem case graeco et, id ceteros oporteat vivendum per. Meis graecis incorrupte ex pro, usu id altera saperet constituam.
-
-In alia iisque cum, tation putant ancillae qui ex. Eam id solum tollit feugait. Soluta qualisque eum eu, possit scaevola salutandi ex pro. Ius dolor malorum conclusionemque ut, cibo forensibus concludaturque id his. Te fugit mazim accommodare mel, delicata postulant assentior id mel, liber placerat scripserit ea sed.
-
-Mei no adhuc expetenda urbanitas. Populo equidem fabulas per id. At vix ridens dicunt. His minim cetero disputando ei, mea an maiorum adolescens vituperata. At mea nemore recusabo, usu mutat utinam id. At mei vocibus facilis invenire.
-
-Quas volutpat vituperatoribus ne nec, pro erant instructior signiferumque ex, sit ad ornatus moderatius. Ius odio pericula cu, mel elit indoctum et, ei altera commodo omnesque est. Cu qui nemore equidem assentior, ferri velit aliquam nam id. Ex mel quando scripserit, nam in similique adipiscing, inani interpretaris cu cum. Cum equidem persecuti te, ut natum semper tacimates vis. Stet referrentur interpretaris sea in, duo in ferri suavitate. Omittam assueverit scripserit qui ne, vel ei essent definiebas.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>111</wp:post_id>
-		<wp:post_date><![CDATA[2016-07-24 06:08:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-07-24 06:08:07]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[puzzle]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
-		<category domain="category" nicename="branding"><![CDATA[Branding]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[488]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[recardo-block]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -3300,16 +3210,16 @@ Quas volutpat vituperatoribus ne nec, pro erant instructior signiferumque ex, si
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[518]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[569]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -3672,7 +3582,105 @@ Autem idque facilis et sea. Mei illum debitis platonem at, quo ex admodum explic
 		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?page_id=540</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
+				<![CDATA[<!-- wp:paragraph -->
+<p>Vitae auctor eu augue ut lectus arcu bibendum. Euismod lacinia at quis risus sed vulputate odio ut enim. Eget nunc lobortis mattis aliquam faucibus purus in. Vitae turpis massa sed elementum tempus egestas. Nisl nisi scelerisque eu ultrices vitae auctor. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Suspendisse in est ante in nibh mauris cursus mattis molestie. Ac ut consequat semper viverra nam libero justo laoreet. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Massa enim nec dui nunc mattis enim ut. Sociis natoque penatibus et magnis dis.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":30} -->
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"columns":3} -->
+<div class="wp-block-columns has-3-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":556} -->
+<figure class="wp-block-image"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2016/07/blog4.jpg" alt="" class="wp-image-556"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Performance Improvement</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nisl pretium fusce id velit ut tortor. Nunc non blandit massa enim nec dui. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Id cursus metus aliquam eleifend mi in nulla.&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":551} -->
+<figure class="wp-block-image"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2016/07/blog5.jpg" alt="" class="wp-image-551"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Corporate Finance Solutions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Quam viverra orci sagittis eu. Quam pellentesque nec nam aliquam. Imperdiet proin fermentum leo vel orci porta. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":550} -->
+<figure class="wp-block-image"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2016/07/blog3.jpg" alt="" class="wp-image-550"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Advanced Analytics Traning</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Suspendisse sed nisi lacus sed viverra tellus in hac habitasse. Amet massa vitae tortor condimentum lacinia quis vel eros. Malesuada fames ac turpis egestascelerisque fermentum dui </p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":40} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"columns":3} -->
+<div class="wp-block-columns has-3-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":549} -->
+<figure class="wp-block-image"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2016/07/blog2.jpg" alt="" class="wp-image-549"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Customer Strategy &amp; Marketing</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Adipiscing elit ut aliquam purus sit amet luctus. Ultrices vitae auctor eu augue ut. Massa tincidunt dui ut ornare lectus. Maecenas pharetra convallis posuere morbi leo.&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":548} -->
+<figure class="wp-block-image"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2016/07/blog1.jpg" alt="" class="wp-image-548"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Corporate Finance Solutions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;Integer vitae justo eget magna fermentum iaculis. Facilisis gravida neque convallis a cras semper auctor neque vitae. Ipsum dolor sit amet consectetur adipiscing elit duis.&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":588} -->
+<figure class="wp-block-image"><img src="https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/blog6.jpg" alt="" class="wp-image-588"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Information Technology</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rhoncus est pellentesque elit ullamcorper dignissim. Eget duis at tellus at urna condimentum mattis. Nibh mauris cursus mattis molestie a iaculis at erat. Nec feugiat in fermentum posuere urna.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>540</wp:post_id>
@@ -3693,30 +3701,146 @@ Autem idque facilis et sea. Mei illum debitis platonem at, quo ex admodum explic
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[no_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				About Us		</title>
+		<link>https://demo.hashthemes.com/totally/about-us/</link>
+		<pubDate>Fri, 05 Apr 2019 08:10:02 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?page_id=604</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Auctor elit sed vulputate mi sit amet. Lectus magna fringilla urna porttitor rhoncus. Nulla facilisi etiam dignissim diam. Tellus in hac habitasse platea dictumst vestibulum. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Quam id leo in vitae turpis. Venenatis cras sed felis eget velit aliquet. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Tempus urna et pharetra pharetra massa massa. Facilisis gravida neque convallis a cras semper auctor neque. Sit amet luctus venenatis lectus. Neque vitae tempus quam pellentesque nec nam aliquam. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Adipiscing commodo elit at imperdiet dui accumsan sit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Eu ultrices vitae auctor eu. Diam maecenas ultricies mi eget. Urna nunc id cursus metus aliquam eleifend mi in. Vivamus at augue eget arcu dictum varius duis. Quam id leo in vitae turpis massa sed elementum. Sem et tortor consequat id porta nibh. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. At augue eget arcu dictum varius duis at. Eu turpis egestas pretium aenean pharetra. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Ut consequat semper viverra nam libero justo laoreet sit amet. Felis eget velit aliquet sagittis. Sed risus ultricies tristique nulla. Lectus proin nibh nisl condimentum id venenatis a. Bibendum ut tristique et egestas. Enim lobortis scelerisque fermentum dui.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":40} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:cover {"url":"https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/banner3-1.jpg","id":518} -->
+<div class="wp-block-cover has-background-dim" style="background-image:url(https://demo.hashthemes.com/totally/wp-content/uploads/2019/04/banner3-1.jpg)"><p class="wp-block-cover-text">Team on Discussion</p></div>
+<!-- /wp:cover -->
+
+<!-- wp:spacer {"height":40} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+<p>Scelerisque felis imperdiet proin fermentum leo vel. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Tortor pretium viverra suspendisse potenti nullam ac tortor. Etiam tempor orci eu lobortis elementum nibh. Sodales neque sodales ut etiam sit amet nisl purus in. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Tempor orci eu lobortis elementum nibh. Ut lectus arcu bibendum at varius vel. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. At imperdiet dui accumsan sit.</p>
+<!-- /wp:paragraph -->]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>604</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 08:10:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 08:10:02]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>
-				Hello world!		</title>
-		<link>https://demo.hashthemes.com/totally/2019/04/03/hello-world__trashed-2/</link>
-		<pubDate>Wed, 03 Apr 2019 15:56:27 +0000</pubDate>
+				Technology allows non-profit to server		</title>
+		<link>https://demo.hashthemes.com/totally/2016/07/20/technology-allows-non-profit-to-server/</link>
+		<pubDate>Wed, 20 Jul 2016 18:41:47 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://demo.hashthemes.com/totally/?p=1</guid>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=27</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[<!-- wp:paragraph -->
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-<!-- /wp:paragraph -->]]>		</content:encoded>
+				<![CDATA[Has zril inermis ex, clita interesset pro ex, dicat scripserit voluptatibus mea at. Eu per tota posse. Accusata dissentias interpretaris vix ne, quas ludus eripuit eos at, id quo elit congue populo. Pri laudem forensibus honestatis ea, ei duo modo maluisset consectetuer.
+
+Ex copiosae placerat lobortis cum, est animal cotidieque ut. At sed graeci prodesset. Nec viris prompta fabellas at, sumo omnium eligendi an qui, mel debitis suscipit omittantur an. Per cu natum albucius reformidans. Nonumy tincidunt sit at, quando graecis delicatissimi ei pri, quo no eius ipsum elitr. Quo ad corpora oportere, novum fuisset et nam, ne sea wisi eligendi.
+
+Ex vel dicam molestie luptatum, te autem mentitum voluptua mea. At mea mollis inermis ocurreret, qui malis nobis inciderint no. Duo ne wisi paulo adipiscing, nec porro mazim atomorum ex. Iusto incorrupte suscipiantur eu cum, eu ius quando veritus. Periculis euripidis appellantur vim et. Ex nec exerci option accusam.]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2019-04-03 15:56:27]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-04-03 15:56:27]]></wp:post_date_gmt>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 18:41:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 18:41:47]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world__trashed-2]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_name><![CDATA[technology-allows-non-profit-to-server]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="application"><![CDATA[Application]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[balancing-a-stone]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[548]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[balancing-a-stone__trashed]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				20th Anniversary of Growing Up Asian in America		</title>
+		<link>https://demo.hashthemes.com/totally/2016/07/20/20th-anniversary-of-growing-up-asian-in-america/</link>
+		<pubDate>Wed, 20 Jul 2016 18:40:04 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=31</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[Laoreet forensibus temporibus id pro. Iisque probatus insolens id sit, assum regione senserit ne cum. Et iusto option consectetuer vim, et has nibh principes, invenire molestiae te mei. Eos ei wisi everti eligendi, vis id audire propriae.
+
+No qui agam persius discere, vel et utinam voluptaria, an est laoreet mnesarchum assueverit. Eam id eirmod oblique, propriae comprehensam id pri. Nemore laoreet disputando id mea. Ne pro dolor fabulas atomorum, pri id euismod facilisi. Et etiam propriae per. Legendos conclusionemque ad ius, quot impedit expetendis ut vis.
+
+Ne albucius imperdiet iracundia quo. Ad ius lorem ridens interesset. Qui munere dolore ad, ut recteque sententiae nam. Ne sed propriae offendit, qui debet fastidii instructior at. Nam no graece regione persecuti, sea fugit integre te. No usu constituam neglegentur, te erat civibus quo, mel velit quodsi scaevola te.
+
+Vix case choro semper ne, vis choro libris labores ut. Cum ea alia quaeque expetendis, eu hinc quaestio forensibus vix, eum inani nostro interesset at. Cum dico complectitur cu, mel placerat percipitur ei, novum nostrud per cu. Cum alia nullam forensibus in.
+
+Ex sit dolores prodesset deseruisse, vide ferri graecis nec et. Lorem dolorum delicata vim id, ei illud fuisset gloriatur pri, ut vis modo mandamus disputando. Wisi prompta splendide sed eu, ea his virtute menandri adolescens. Vim at libris graeci accusamus, id debitis vocibus definitionem vix.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 18:40:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 18:40:04]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[20th-anniversary-of-growing-up-asian-in-america]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[post]]></wp:post_type>
@@ -3724,38 +3848,170 @@ Autem idque facilis et sea. Mei illum debitis platonem at, quo ex admodum explic
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1554357700]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2019-04-03 15:56:27]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2019-04-03 15:56:27]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-							</wp:comment>
-					</item>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[chess-player]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[556]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[chess-player__trashed]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				Tips to make your workforce a security front line		</title>
+		<link>https://demo.hashthemes.com/totally/2016/07/20/tips-to-make-your-workforce-a-security-front-line/</link>
+		<pubDate>Wed, 20 Jul 2016 18:41:01 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=34</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[Scaevola appetere eu est, an ius quod postulant scribentur. Munere nostrud quo et. Quodsi persecuti conceptam eum no, case ullum dolorem ius cu, ea sea mucius intellegebat. Ponderum volutpat molestiae est ex. Eos quidam scriptorem et, eos habemus reprehendunt cu. Vix at purto ubique luptatum, putent dolorum scriptorem ut nam, sea iusto salutandi eu.
+
+Eu duo eruditi deserunt pericula, cum diceret accusamus ex, per no paulo noluisse incorrupte. Ex vix persius consulatu, quaeque ponderum ne sea. Et sit dicit homero soluta, eum enim esse perfecto at, mea omnes alterum minimum cu. Sit tempor vivendo scribentur id, cum facer commodo corrumpit ex, nobis sanctus reprehendunt mel id. Ea vidit nullam primis nam, nisl hendrerit deterruisset vis at, ex est nostrud labores.
+
+Sit ut saepe maluisset. Has mazim vivendum mnesarchum te, facer zril constituam pro ea. Animal reformidans eu eam. Ex vim falli exerci perpetua, eu his vero invenire. Habeo velit discere at pro, meis novum an duo. His sale mediocrem cu.
+
+Id alterum ancillae repudiare mel, atomorum neglegentur et usu, has purto civibus salutatus ex. Ea aperiri suscipit intellegam mea, qui ne aperiam graecis. Autem oportere eos eu. An has accusam dolores mediocrem. Duo ea nulla semper, tacimates dissentiet deterruisset mea ad.
+
+Pri id summo veritus, quo admodum probatus tincidunt in. His ei minim assueverit. Oratio persecuti delicatissimi vel eu. Ex alii reque per. Diceret definitionem mediocritatem cum cu, ius consul tacimates sadipscing ut, no duo legere audiam accommodare. Sit ex mentitum honestatis, ex usu facer saepe primis.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 18:41:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 18:41:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[tips-to-make-your-workforce-a-security-front-line]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[silence-breeze]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[550]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[silence-breeze__trashed]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				7 creative ways to address gaps in IT resources		</title>
+		<link>https://demo.hashthemes.com/totally/2016/07/20/7-creative-ways-to-address-gaps-in-it-resources/</link>
+		<pubDate>Wed, 20 Jul 2016 18:42:44 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=39</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[Vis quis assum ludus cu. Cu zril postulant vix. Vim cu noster vidisse, in doctus nonumes pertinax cum. Magna utinam menandri ex eos, ne aeque atomorum pro, vide nonumy deleniti cu vel. Has ei aperiam facilisi consetetur.
+
+Offendit noluisse vulputate ut vix, vis dicunt nominavi no. Dolore omnium mea ex, id perpetua praesent dissentias eam, iisque forensibus vim ad. In duo cibo eloquentiam signiferumque, pro ex minim eruditi dissentiet. Ad perpetua voluptatibus vis. Qui id quis reprimique concludaturque.
+
+Modus imperdiet te est. Recusabo mandamus eu quo. Ut mel nibh omnis regione, vim te quod invidunt. Eu consequat disputando mei, eos eu tempor legimus phaedrum, illud nostrud salutandi et sit. In mentitum democritum his. Eum mutat nemore dicunt eu, novum fastidii dignissim sit at, ea maiorum cotidieque vim.
+
+Sed epicurei perpetua dissentiet eu, quo quodsi animal ex, et est erant fuisset pertinacia. Eu eum oratio putant. Reprimique definitionem no qui, tincidunt quaerendum eam ei, pri ei elitr omnesque imperdiet. Omittam dissentias eum ea, mazim molestie voluptaria per et.
+
+Nec impetus postulant ad. Quo ad nisl doctus, causae facilisis usu no. Ea posse percipit mea, eu eam verear singulis adipisci. Quem quas discere ei vel.
+
+Vis veri impetus an, inciderint referrentur ius ex. Vis ut fugit integre. Ea eos blandit reprimique. Vis cu animal feugait, veniam indoctum ne duo, nullam conceptam vim te. Ipsum sonet detraxit mea ne, mea at dictas dolorem, at mel amet exerci moderatius. Ius quem ridens antiopam an, ius justo nominavi partiendo ne.
+
+In nam assum primis tritani, utamur praesent ius ne. Per sale tantas ornatus an, eum odio aperiri no, ei his detraxit assentior. Purto corrumpit eu vim, eirmod admodum interpretaris sit eu. Magna graeco gubergren at duo, facer discere his an. Ea nibh sapientem expetendis mea, nec ei omnes eligendi.
+
+Vix porro luptatum honestatis cu. Has sumo voluptatibus id. Te usu vidit oratio adipiscing. Semper epicurei partiendo ut est. Sint epicurei in usu. Mel inermis periculis persequeris cu, ad singulis instructior quo, cu mei doming adversarium. Ei alienum pertinacia cum, nec ex posse phaedrum torquatos.
+
+Mel atomorum aliquando at, cum eu quando propriae philosophia, an mel graece labitur. Mel eu quot posidonium, debet audiam assentior vis te. Nonumes molestiae quo cu, voluptaria repudiandae sea ea, vel an animal accusam adipiscing. Vivendo mnesarchum consequuntur no cum.
+
+No nam amet inani dolore, stet error elaboraret pri eu, te nec erat vivendum. Est et ceteros fastidii. Ne indoctum inciderint philosophia sea, tibique singulis sententiae sea ei. Quo cu mutat augue legere, vim tota congue ei. Ut ludus utinam vel, vis audire graecis vivendum ne.
+
+At pro eros disputationi consequuntur, sit vide tacimates sententiae cu. Id saperet maiestatis scribentur mel. Eligendi persequeris pri cu. Per scripserit omittantur ei, disputationi definitionem an per, ad eius decore perfecto pri. Eu sonet euismod reprimique per. Est veri iudicabit conceptam cu.
+
+An ipsum aeterno vivendo eam. Legere appareat elaboraret sed an, ponderum detraxit eloquentiam pro in. Eam ne illud decore, ex pri animal repudiare. Te saepe sententiae moderatius vix, bonorum ponderum petentium est et. Pro modo tamquam ocurreret an. Melius persius ne usu, id option tamquam efficiendi nec.
+
+Iusto ornatus accusam te pri, impetus partiendo suavitate id usu. Quo in dicant ubique pertinacia, eu vis pericula consequat philosophia. Deserunt similique ad sea. Ne nec inermis vituperata, vis at esse facilisi, eu vix viris iracundia. Possim adversarium consequuntur cu vim, vel ei meis dicit, ius an minim signiferumque.
+
+Nam laudem alterum ornatus ei, mea verear imperdiet id. Case accusata mediocrem nam ut. Vel fabellas oporteat conceptam ea. Per an tacimates periculis. Has meliore tincidunt ex, errem dolore et vis. Qui te quodsi commodo elaboraret, no mel nihil delenit, ius ex veritus intellegat quaerendum.
+
+Ut solet iriure salutatus nec, sanctus moderatius sit ex, congue inermis perpetua et duo. Eos ad semper equidem epicurei, cu pro timeam accusata. His persius consetetur et. Te usu dicant facilis. Denique vulputate pri ad.
+
+Vis tractatos comprehensam at, his eu accumsan repudiare prodesset. Ne bonorum docendi nec, eam ut vitae soleat imperdiet, ex qui enim suscipit. Te quaeque philosophia sit, cu sonet elitr qualisque his. Eam elitr maiorum sadipscing at, probo quando accusata ex duo. Officiis iudicabit eu has. Ex mei illum conceptam assueverit. Malis dolorum salutandi nec ne.
+
+Eu iuvaret tacimates sapientem nec, id qui quidam omnium. No usu cetero conclusionemque. Id vis purto veritus accommodare, no vim tempor civibus blandit. Nec deserunt recusabo id, mei in case tamquam adversarium.
+
+Ei harum ancillae sit. Pri probo etiam et, commune signiferumque ut vix. Vel te omnesque contentiones, an mel dolores gubergren. Dico erant deseruisse ut ius, pro altera mnesarchum ad.
+
+Utroque albucius ea duo, eius nonumy noster eum eu, graeci tacimates pri ne. Nec et quot iusto labitur, doctus nostrum probatus ei mei. Ei autem iusto sed. Vim at assum ullamcorper, per corrumpit constituam at. Denique ponderum laboramus duo ut, sumo.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-20 18:42:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-20 18:42:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[7-creative-ways-to-address-gaps-in-it-resources]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[delicious-spaghetti]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[551]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[delicious-spaghetti__trashed]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title>
 				Dubai Building		</title>
@@ -4006,6 +4262,55 @@ Eum in aeterno meliore conceptam, reprehendunt definitionem ex est, vim eu latin
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[square-block-house]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>
+				Puzzle		</title>
+		<link>https://demo.hashthemes.com/totally/2016/07/24/puzzle/</link>
+		<pubDate>Sun, 24 Jul 2016 06:08:07 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">http://demo.hashthemes.com/total/?p=111</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[Cu diam fuisset cum, mea ex idque intellegebat, agam option timeam sit in. Eu quidam eruditi vix. Nemore utroque accusata no vis, usu id labore incorrupte. Ius ea debet deleniti accusamus. Usu quem case graeco et, id ceteros oporteat vivendum per. Meis graecis incorrupte ex pro, usu id altera saperet constituam.
+
+In alia iisque cum, tation putant ancillae qui ex. Eam id solum tollit feugait. Soluta qualisque eum eu, possit scaevola salutandi ex pro. Ius dolor malorum conclusionemque ut, cibo forensibus concludaturque id his. Te fugit mazim accommodare mel, delicata postulant assentior id mel, liber placerat scripserit ea sed.
+
+Mei no adhuc expetenda urbanitas. Populo equidem fabulas per id. At vix ridens dicunt. His minim cetero disputando ei, mea an maiorum adolescens vituperata. At mea nemore recusabo, usu mutat utinam id. At mei vocibus facilis invenire.
+
+Quas volutpat vituperatoribus ne nec, pro erant instructior signiferumque ex, sit ad ornatus moderatius. Ius odio pericula cu, mel elit indoctum et, ei altera commodo omnesque est. Cu qui nemore equidem assentior, ferri velit aliquam nam id. Ex mel quando scripserit, nam in similique adipiscing, inani interpretaris cu cum. Cum equidem persecuti te, ut natum semper tacimates vis. Stet referrentur interpretaris sea in, duo in ferri suavitate. Omittam assueverit scripserit qui ne, vel ei essent definiebas.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>111</wp:post_id>
+		<wp:post_date><![CDATA[2016-07-24 06:08:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-07-24 06:08:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[puzzle]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+		<category domain="category" nicename="branding"><![CDATA[Branding]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[488]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[recardo-block]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[total_sidebar_layout]]></wp:meta_key>
+		<wp:meta_value><![CDATA[right_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -4537,21 +4842,23 @@ No dolor dicunt eloquentiam sea, et pri dicam mollis diceret, cu quo exerci conv
 					<item>
 		<title>
 				Hello world!		</title>
-		<link>https://demo.hashthemes.com/totally/2018/11/28/hello-world__trashed/</link>
-		<pubDate>Wed, 28 Nov 2018 14:43:28 +0000</pubDate>
+		<link>https://demo.hashthemes.com/totally/2019/04/03/hello-world__trashed-2/</link>
+		<pubDate>Wed, 03 Apr 2019 15:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[hashthemes]]></dc:creator>
-		<guid isPermaLink="false">http://hashcreation.com/demo-import/total/?p=1</guid>
+		<guid isPermaLink="false">http://demo.hashthemes.com/totally/?p=1</guid>
 		<description></description>
 		<content:encoded>
-				<![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]>		</content:encoded>
+				<![CDATA[<!-- wp:paragraph -->
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<!-- /wp:paragraph -->]]>		</content:encoded>
 		<excerpt:encoded>
 				<![CDATA[]]>		</excerpt:encoded>
-		<wp:post_id>396</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-28 14:43:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-28 14:43:28]]></wp:post_date_gmt>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-03 15:56:27]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-03 15:56:27]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world__trashed]]></wp:post_name>
+		<wp:post_name><![CDATA[hello-world__trashed-2]]></wp:post_name>
 		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -4560,16 +4867,156 @@ No dolor dicunt eloquentiam sea, et pri dicam mollis diceret, cu quo exerci conv
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1543418498]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1554357700]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2019-04-03 15:56:27]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2019-04-03 15:56:27]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title>
+				Contact form 1		</title>
+		<link>https://demo.hashthemes.com/totally/?post_type=wpcf7_contact_form&#038;p=600</link>
+		<pubDate>Fri, 05 Apr 2019 07:54:17 +0000</pubDate>
+		<dc:creator><![CDATA[hashthemes]]></dc:creator>
+		<guid isPermaLink="false">https://demo.hashthemes.com/totally/?post_type=wpcf7_contact_form&#038;p=600</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]
+Totally "[your-subject]"
+Totally <wordpress@demo.hashthemes.com>
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Totally (https://demo.hashthemes.com/totally)
+neprabin@gmail.com
+Reply-To: [your-email]
+
+0
+0
+
+Totally "[your-subject]"
+Totally <wordpress@demo.hashthemes.com>
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Totally (https://demo.hashthemes.com/totally)
+[your-email]
+Reply-To: neprabin@gmail.com
+
+0
+0
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>600</wp:post_id>
+		<wp:post_date><![CDATA[2019-04-05 07:54:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-04-05 07:54:17]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:24:"Totally "[your-subject]"";s:6:"sender";s:39:"Totally <wordpress@demo.hashthemes.com>";s:4:"body";s:181:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Totally (https://demo.hashthemes.com/totally)";s:9:"recipient";s:18:"neprabin@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Totally "[your-subject]"";s:6:"sender";s:39:"Totally <wordpress@demo.hashthemes.com>";s:4:"body";s:123:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Totally (https://demo.hashthemes.com/totally)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:28:"Reply-To: neprabin@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:8:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>

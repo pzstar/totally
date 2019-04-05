@@ -157,7 +157,7 @@ function totally_customize_register($wp_customize) {
 
     $wp_customize->add_setting('totally_titlebar_background', array(
         'sanitize_callback' => 'esc_url_raw',
-        'default' => get_stylesheet_directory_uri(). '/images/banner-image.jpg'
+        'default' => get_stylesheet_directory_uri() . '/images/banner-image.jpg'
             )
     );
 

@@ -105,7 +105,7 @@ function totally_fonts_url() {
 function totally_dymanic_styles() {
     $color = get_theme_mod('total_template_color', '#FFC107');
     $color_rgba = totally_hex2rgba($color, 0.9);
-    $totally_titlebar_background = get_theme_mod('totally_titlebar_background', '');
+    $totally_titlebar_background = get_theme_mod('totally_titlebar_background', get_stylesheet_directory_uri(). '/images/banner-image.jpg');
     $custom_css = "
         body #ht-site-navigation .ht-nav-wrap, 
         body .ht-portfolio-cat-name:hover, 
@@ -199,24 +199,16 @@ function totally_demo_import_files($array) {
             'local_import_customizer_file' => trailingslashit(get_stylesheet_directory()) . 'demo-data/totally-customizer.dat',
             'import_preview_image_url' => 'https://i0.wp.com/themes.svn.wordpress.org/totally/1.0.0/screenshot.png',
             'preview_url' => 'http://demo.hashthemes.com/totally'
-        ),
-        array(
-            'import_file_name' => 'Totally Demo Import',
-            'local_import_file' => trailingslashit(get_stylesheet_directory()) . 'demo-data/totally-content.xml',
-            'local_import_widget_file' => trailingslashit(get_stylesheet_directory()) . 'demo-data/totally-widgets.wie',
-            'local_import_customizer_file' => trailingslashit(get_stylesheet_directory()) . 'demo-data/totally-customizer.dat',
-            'import_preview_image_url' => 'https://i0.wp.com/themes.svn.wordpress.org/totally/1.0.0/screenshot.png',
-            'preview_url' => 'http://demo.hashthemes.com/totally'
         )
     );
 }
 
-add_action( 'wp_head', 'totally_remove_actions' );
+add_action( 'wp_head', 'totally_remove_actions', 10 );
 function totally_remove_actions(){
     remove_action('pt-ocdi/after_import', 'total_after_import_setup');
 }
 
-add_action('pt-ocdi/after_import', 'totally_after_import_setup');
+add_action('pt-ocdi/after_import', 'totally_after_import_setup', 30);
 
 function totally_after_import_setup() {
     // Assign menus to their locations.

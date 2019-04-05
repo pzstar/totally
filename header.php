@@ -87,7 +87,7 @@
                 
                 <nav id="ht-site-navigation" class="ht-main-navigation">
                     <div class="ht-container">
-                        <div class="ht-nav-wrap">
+                        <div class="ht-nav-wrap ht-clearfix">
                             <div class="toggle-bar"><span></span></div>
                             <?php
                             wp_nav_menu(array(
@@ -95,6 +95,7 @@
                                 'container_class' => 'ht-menu ht-clearfix',
                                 'menu_class' => 'ht-clearfix',
                                 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                'fallback_cb' => false
                             ));
                             ?>
                         </div>

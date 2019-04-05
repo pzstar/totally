@@ -159,7 +159,8 @@ h6{
     font-size: 0.85em;
 }
 
-.ht-top-header a{
+.ht-top-header a,
+.ht-top-header a:hover{
     color: #FFF;
 }
 
@@ -241,7 +242,7 @@ h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
 }
 
@@ -636,6 +637,10 @@ body.page-template-home-template .ht-main-navigation .current > a{
     margin-right: 30px;
 }
 
+.ht-slide-cap-desc .wp-block-button:last-child{
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1000px){
     .toggle-bar {
         position: relative;
@@ -643,5 +648,100 @@ body.page-template-home-template .ht-main-navigation .current > a{
         top: 0;
         right: 0;
         border: 1px solid #FFF;
+    }
+    
+    .toggle-bar span{
+        height: 2px;
+        margin-top: -1px;
+    }
+    
+    .ht-main-navigation li{
+        margin: 0;
+    }
+    
+    .ht-main-navigation li.ht-button-menu{
+        float: none;
+    }
+    
+    .ht-sticky .ht-main-navigation ul ul,
+    .ht-main-navigation ul ul{
+        margin-top: 0;
+    }
+    
+    .ht-slide-cap-title{
+        font-size: 42px;
+    }
+    
+    .ht-slide img{
+        min-height: 600px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .ht-sticky #ht-site-navigation{
+        position: absolute;
+        top: auto !important;
+        transform: translateY(-50%);
+    }
+    
+    .ht-slide-cap-title{
+        font-size: 4vw;
+    }
+    
+    .ht-slide-cap-desc .wp-block-button__link{
+        font-size: 3vw;
+    }
+    
+    .ht-slide img{
+        min-height: 400px;
+    }
+    
+    #ht-testimonial-section .ht-section-title-tagline,
+    .ht-testimonial-wrap{
+        width: 100%;
+        float: none;
+    }
+    
+    .ht-testimonial-slider .ht-testimonial{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .ht-top-header .ht-container{
+        display: block;
+        text-align: center;
+    }
+    
+    .ht-top-header .ht-left-header,
+    .ht-top-header .ht-right-header{
+        float: none;
+        max-width: 100%;
+    }
+    
+    .ht-top-header .ht-right-header{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .ht-slide img{
+        min-height: 350px;
+    }
+    
+    #ht-bx-slider .owl-nav{
+        display: none;
+    }
+    
+    .ht-middle-header .ht-container{
+        display: block;
+        text-align: center;
+    }
+    
+    .ht-main-header-widget{
+        margin-top: 15px;
     }
 }

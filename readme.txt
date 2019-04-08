@@ -8,8 +8,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Totally WordPress Theme copyright HashThemes 2019
+Total WordPress Theme, Copyright HashThemes 2019
 Total is distributed under the terms of the GNU GPL v2 or later.
+
+Totally WordPress Theme is the child theme of Total Theme, Copyright HashThemes 2019
+Totally is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
 
@@ -23,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.0.2 - Apr 6 2019 =
+* Multiple text domain issue fixed
+* Theme URI added
 
 = 1.0 - Apr 5 2019 =
 * Initial release
@@ -39,7 +45,7 @@ License: Open Font License (https://opensource.org/licenses/OFL-1.1)
 * Poppins Font by Indian Type Foundry - https://fonts.google.com/specimen/Poppins
 License: Open Font License (https://opensource.org/licenses/OFL-1.1)
 
-* Screenshot Banner Image & Header Image - https://www.pexels.com/photo/architecture-building-business-ceiling-lamp-260931/
-License: (https://www.pexels.com/photo-license/)
-* About Us Image - https://www.pexels.com/photo/photo-of-a-man-and-woman-using-a-laptop-computer-1647905/
-License: (https://www.pexels.com/photo-license/)
+* Screenshot Banner Image & Header Image - https://pxhere.com/en/photo/735699
+License: CCO (https://pxhere.com/en/license)
+* About Us Image - https://pxhere.com/en/photo/559565
+License: CCO (https://pxhere.com/en/license)

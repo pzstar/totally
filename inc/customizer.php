@@ -116,7 +116,7 @@ function totally_customize_register($wp_customize) {
     $wp_customize->add_control(new Total_Info_Text($wp_customize, 'totally_mh_button', array(
         'settings' => 'totally_mh_button',
         'section' => 'total_header_settings',
-        'label' => esc_html__('Main Header Button', 'total'),
+        'label' => esc_html__('Main Header Button', 'totally'),
         'description' => esc_html__('This button appear at the right end of the main header.', 'totally'),
             )
             )
@@ -150,7 +150,7 @@ function totally_customize_register($wp_customize) {
 
     //TITLE BAR SETTINGS
     $wp_customize->add_section('totally_titlebar_settings', array(
-        'title' => esc_html__('Title Bar Settings', 'total'),
+        'title' => esc_html__('Title Bar Settings', 'totally'),
         'description' => esc_html__('It is the header bar where the title and breadcrumb appears', 'totally'),
         'priority' => 10
     ));

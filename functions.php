@@ -64,7 +64,7 @@ function totally_fonts_url() {
      * Translators: If there are characters in your language that are not supported
      * by Open Sans, translate this to 'off'. Do not translate into your own language.
      */
-    if ('off' !== _x('on', 'Poppins font: on or off', 'total')) {
+    if ('off' !== _x('on', 'Poppins font: on or off', 'totally')) {
         $fonts[] = 'Poppins:300,300i,400,400i,500,700,700i';
     }
 
@@ -72,7 +72,7 @@ function totally_fonts_url() {
      * Translators: If there are characters in your language that are not supported
      * by Inconsolata, translate this to 'off'. Do not translate into your own language.
      */
-    if ('off' !== _x('on', 'Teko font: on or off', 'total')) {
+    if ('off' !== _x('on', 'Teko font: on or off', 'totally')) {
         $fonts[] = 'Teko:300,400,500,600,700';
     }
 
@@ -80,7 +80,7 @@ function totally_fonts_url() {
      * Translators: To add an additional character subset specific to your language,
      * translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
      */
-    $subset = _x('no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'total');
+    $subset = _x('no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'totally');
 
     if ('cyrillic' == $subset) {
         $subsets .= ',cyrillic,cyrillic-ext';

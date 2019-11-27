@@ -26,6 +26,17 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.0.7 - Oct 18 2019 =
+* Translation Ready
+* Added footer.php file with some edits
+
+= 1.0.6 - Jun 24 2019 =
+* Demo Import Updated 
+* Other minor fixes
+
+= 1.0.4 - May 3 2019 =
+* Screenshot Changed
+
 = 1.0.2 - Apr 6 2019 =
 * Multiple text domain issue fixed
 * Theme URI added

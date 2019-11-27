@@ -1,11 +1,11 @@
 /*
  Theme Name:   Totally
- Theme URI: https://hashthemes.com/wordpress-theme/totally/
- Description:  Totaly is a complete packaged theme with all the feature that you need to make a complete website. The theme has clean and elegant design with vibrant color(Theme Color Changable Option) and parallax sections. The home page consist of slider, featured section with icon, about us section with progress bar, portfolio section with masonary layout, team section, testimonial section, counter section, blog section with option to add 3, 6 or 9 blog posts, clients logo carousel slider and call to action section. The theme is fully responsive and is built on customizer that enable you to configure the website with live preview. The theme is SEO friendly, Cross browser compatible, fully translation ready and is compatible with WooCommerce - an ecommerce plugin and all other major plugins. The theme can also be used with all major page builder plugins like Elementor, SiteOrigin, WpBakery VisualComposer and Beaver Builder. DEMO: https://demo.hashthemes.com/totally
+ Theme URI:    https://hashthemes.com/wordpress-theme/totally/
+ Description:  Totally is a lightweight, super fast, fully customizable responsive WordPress theme with clean and professional design that is perfect for any kind of website. It is a multi purpose theme and will allow you to create almost any type of website such as blog, portfolio, business, e-commerce, corporate, education, medical etc. The theme works good the most popular page builder like Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin or any other pagebuilder of your choice. More over the theme provides the color picker to choose the skin color of your website. The homepage consists of almost all the section that you will need to create an engaging website like slider, featured section with icon, about us section with progress bar, portfolio section, team section, testimonial section, counter section, blog section. The theme is SEO friendly, cross browser compatible, translation ready, woocommerce ready and is compatible with almost all major WordPress plugins. So look no further and create your website with Totally. DEMO: https://demo.hashthemes.com/totally
  Author:       Hash Themes
  Author URI:   http://hashthemes.com
  Template:     total
- Version:      1.0.3
+ Version:      1.0.7
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, education, blog, custom-logo
@@ -242,8 +242,8 @@ h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 #ht-site-branding{

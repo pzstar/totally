@@ -7,6 +7,11 @@ function totally_dequeue_script() {
 
 add_action('wp_print_scripts', 'totally_dequeue_script', 100);
 
+function totally_slug_setup() {
+    load_child_theme_textdomain( 'total', get_stylesheet_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'totally_slug_setup' );
+
 add_action('wp_enqueue_scripts', 'totally_enqueue_scripts');
 
 function totally_enqueue_scripts() {

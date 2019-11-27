@@ -1,0 +1,7 @@
+#accordion-section-total_header_settings .accordion-section-title:before{
+    content: '\f489';
+}
+
+#accordion-section-totally_titlebar_settings .accordion-section-title:before{
+    content: '\f212';
+}

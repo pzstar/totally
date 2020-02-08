@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package Total
+ * @package Totally
  */
 if (get_theme_mod('total_team_section_disable') != 'on') {
     ?>
@@ -64,7 +64,7 @@ if (get_theme_mod('total_team_section_disable') != 'on') {
                                             <?php
                                         }
 
-                                        if(has_excerpt() && '' != trim(get_the_excerpt())){
+                                        if (has_excerpt() && '' != trim(get_the_excerpt())) {
                                             the_excerpt();
                                         } else {
                                             echo esc_html(total_excerpt(get_the_content(), 100));

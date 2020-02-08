@@ -7,18 +7,18 @@
  */
 
 jQuery(function ($) {
-    
+
     var onpageOffset = 0
     var navHeight = 0;
     if ($('.ht-sticky-header').length > 0) {
-        if($('body.admin-bar').length > 0){
+        if ($('body.admin-bar').length > 0) {
             onpageOffset = $('.ht-nav-wrap').offset().top - 32;
-        }else{
-             onpageOffset = $('.ht-nav-wrap').offset().top;
+        } else {
+            onpageOffset = $('.ht-nav-wrap').offset().top;
         }
-        
+
         navHeight = $('.ht-nav-wrap').height();
-        
+
         $(window).scroll(function () {
             if ($(window).scrollTop() > onpageOffset) {
                 $('#ht-masthead').addClass('ht-sticky');
@@ -27,7 +27,7 @@ jQuery(function ($) {
             }
         });
     }
-    
+
     $('.ht-sticky-header .ht-menu').onePageNav({
         currentClass: 'current',
         changeHash: false,

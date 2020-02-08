@@ -8,7 +8,7 @@ function totally_dequeue_script() {
 add_action('wp_print_scripts', 'totally_dequeue_script', 100);
 
 function totally_slug_setup() {
-    load_child_theme_textdomain( 'total', get_stylesheet_directory() . '/languages' );
+    load_child_theme_textdomain( 'totally', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'totally_slug_setup' );
 
@@ -32,7 +32,7 @@ function totally_widgets_init() {
         'before_title' => '<h4 class="widget-title">',
         'after_title' => '</h4>',
     ));
-
+    
     register_sidebar(array(
         'name' => esc_html__('Main Header Widget', 'totally'),
         'id' => 'totally-main-header-widget',
@@ -122,7 +122,7 @@ function totally_dymanic_styles() {
         body .ht-sticky #ht-site-navigation,
         body .ht-top-header{background:" . sanitize_hex_color($color) . "}
         body .ht-team-detail{background:" . totally_sanitize_color_alpha($color_rgba) . "}
-        body .ht-featured-post h5, body .ht-featured-link a:hover{color:" . sanitize_hex_color($color) . "}
+        body .ht-featured-post h5, body .ht-featured-link a:hover, body .ht-contact-block i{color:" . sanitize_hex_color($color) . "}
         body .ht-main-header{background-image: url(". esc_url($totally_titlebar_background) .")}
     ";
 

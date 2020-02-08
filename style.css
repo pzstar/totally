@@ -3,9 +3,9 @@
  Theme URI:    https://hashthemes.com/wordpress-theme/totally/
  Description:  Totally is a lightweight, super fast, fully customizable responsive WordPress theme with clean and professional design that is perfect for any kind of website. It is a multi purpose theme and will allow you to create almost any type of website such as blog, portfolio, business, e-commerce, corporate, education, medical etc. The theme works good the most popular page builder like Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin or any other pagebuilder of your choice. More over the theme provides the color picker to choose the skin color of your website. The homepage consists of almost all the section that you will need to create an engaging website like slider, featured section with icon, about us section with progress bar, portfolio section, team section, testimonial section, counter section, blog section. The theme is SEO friendly, cross browser compatible, translation ready, woocommerce ready and is compatible with almost all major WordPress plugins. So look no further and create your website with Totally. DEMO: https://demo.hashthemes.com/totally
  Author:       Hash Themes
- Author URI:   http://hashthemes.com
+ Author URI:   https://hashthemes.com
  Template:     total
- Version:      1.0.7
+ Version:      1.0.8
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, education, blog, custom-logo
@@ -254,6 +254,35 @@ h6{
 
 .ht-main-header-widget .widget:last-child{
     margin-bottom: 0;
+}
+
+.ht-site-contact-info{
+    display: flex;
+}
+
+.ht-contact-block{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.ht-contact-block:first-child{
+    margin-right: 0;
+}
+
+.ht-contact-block i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.ht-contact-block h4{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.ht-contact-block p{
+    margin: 0;
 }
 
 .ht-middle-header .ht-container:after,
@@ -649,29 +678,33 @@ body.page-template-home-template .ht-main-navigation .current > a{
         right: 0;
         border: 1px solid #FFF;
     }
-    
+
     .toggle-bar span{
         height: 2px;
         margin-top: -1px;
     }
-    
+
+    .ht-main-navigation .ht-menu{
+        top: 80px
+    }
+
     .ht-main-navigation li{
         margin: 0;
     }
-    
+
     .ht-main-navigation li.ht-button-menu{
         float: none;
     }
-    
+
     .ht-sticky .ht-main-navigation ul ul,
     .ht-main-navigation ul ul{
         margin-top: 0;
     }
-    
+
     .ht-slide-cap-title{
         font-size: 42px;
     }
-    
+
     .ht-slide img{
         min-height: 600px;
         object-fit: cover;
@@ -679,30 +712,35 @@ body.page-template-home-template .ht-main-navigation .current > a{
 }
 
 @media screen and (max-width: 768px){
+
+    .ht-site-contact-info{
+        display: none;
+    }
+
     .ht-sticky #ht-site-navigation{
         position: absolute;
         top: auto !important;
         transform: translateY(-50%);
     }
-    
+
     .ht-slide-cap-title{
         font-size: 4vw;
     }
-    
+
     .ht-slide-cap-desc .wp-block-button__link{
         font-size: 3vw;
     }
-    
+
     .ht-slide img{
         min-height: 400px;
     }
-    
+
     #ht-testimonial-section .ht-section-title-tagline,
     .ht-testimonial-wrap{
         width: 100%;
         float: none;
     }
-    
+
     .ht-testimonial-slider .ht-testimonial{
         width: 100%;
         float: none;
@@ -716,31 +754,31 @@ body.page-template-home-template .ht-main-navigation .current > a{
         display: block;
         text-align: center;
     }
-    
+
     .ht-top-header .ht-left-header,
     .ht-top-header .ht-right-header{
         float: none;
         max-width: 100%;
     }
-    
+
     .ht-top-header .ht-right-header{
         margin-top: 10px;
         display: block;
     }
-    
+
     .ht-slide img{
         min-height: 350px;
     }
-    
+
     #ht-bx-slider .owl-nav{
         display: none;
     }
-    
+
     .ht-middle-header .ht-container{
         display: block;
         text-align: center;
     }
-    
+
     .ht-main-header-widget{
         margin-top: 15px;
     }

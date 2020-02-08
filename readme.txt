@@ -26,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.0.8 - Feb 8 2020 =
+* Header contact info option added
+
 = 1.0.7 - Oct 18 2019 =
 * Translation Ready
 * Added footer.php file with some edits

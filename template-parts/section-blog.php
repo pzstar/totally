@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package Total
+ * @package Totally
  */
 if (get_theme_mod('total_blog_section_disable') != 'on') {
     ?>
@@ -56,7 +56,7 @@ if (get_theme_mod('total_blog_section_disable') != 'on') {
                                 </div>
                                 <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
                                 <?php
-                                if(has_excerpt() && '' != trim(get_the_excerpt())){
+                                if (has_excerpt() && '' != trim(get_the_excerpt())) {
                                     the_excerpt();
                                 } else {
                                     echo esc_html(total_excerpt(get_the_content(), 190));
@@ -72,5 +72,5 @@ if (get_theme_mod('total_blog_section_disable') != 'on') {
             </div>	
         </div>
     </section>
-<?php
+    <?php
 }

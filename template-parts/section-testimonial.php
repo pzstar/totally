@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package Total
+ * @package Totally
  */
 if (get_theme_mod('total_testimonial_section_disable') != 'on') {
     ?>
@@ -43,7 +43,7 @@ if (get_theme_mod('total_testimonial_section_disable') != 'on') {
                                     <div class="ht-testimonial-excerpt">
                                         <i class="fa fa-quote-left"></i>
                                         <?php
-                                        if(has_excerpt() && '' != trim(get_the_excerpt())){
+                                        if (has_excerpt() && '' != trim(get_the_excerpt())) {
                                             the_excerpt();
                                         } else {
                                             echo esc_html(total_excerpt(get_the_content(), 300));
@@ -51,14 +51,14 @@ if (get_theme_mod('total_testimonial_section_disable') != 'on') {
                                         ?>
                                     </div>
                                     <div class="ht-testimonial-footer">
-                                    <?php
-                                    if (has_post_thumbnail()) {
-                                        ?>
-                                        <img src="<?php echo esc_url($total_image[0]) ?>" alt="<?php the_title(); ?>">
                                         <?php
-                                    }
-                                    ?>
-                                    <h6><?php the_title(); ?></h6>
+                                        if (has_post_thumbnail()) {
+                                            ?>
+                                            <img src="<?php echo esc_url($total_image[0]) ?>" alt="<?php the_title(); ?>">
+                                            <?php
+                                        }
+                                        ?>
+                                        <h6><?php the_title(); ?></h6>
                                     </div>
                                 </div>
                                 <?php
@@ -71,5 +71,5 @@ if (get_theme_mod('total_testimonial_section_disable') != 'on') {
             </div>
         </div>	
     </section>
-<?php
+    <?php
 }

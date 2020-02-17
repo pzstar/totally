@@ -26,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.0.9 - Feb 17, 2020 =
+* Demo Import Option removed to comply with latest Theme submission guideline.
+
 = 1.0.8 - Feb 8 2020 =
 * Header contact info option added
 

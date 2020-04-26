@@ -26,6 +26,12 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.1.2 - Apr 26, 2020 =
+* Skip Content and Keyboard navigation fixed
+
+= 1.1.0 - Apr 25, 2020 =
+* Styling fixes
+
 = 1.0.9 - Mar 06, 2020 =
 * Pot file updated
 

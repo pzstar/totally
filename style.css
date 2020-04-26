@@ -5,7 +5,7 @@
  Author:       Hash Themes
  Author URI:   https://hashthemes.com
  Template:     total
- Version:      1.1.0
+ Version:      1.1.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, education, blog, custom-logo
@@ -330,36 +330,36 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     float: none;
 }
 
-.ht-main-navigation ul ul{
+.ht-main-navigation .ht-menu ul ul{
     margin-top: 15px;
 }
 
-.ht-main-navigation li{
+.ht-main-navigation .ht-menu li{
     margin-left: 0;
     margin-right: 10px;
 }
 
-.ht-main-navigation li.ht-button-menu{
+.ht-main-navigation .ht-menu li.ht-button-menu{
     float: right;
 }
 
-.ht-main-navigation li.ht-button-menu a{
+.ht-main-navigation .ht-menu li.ht-button-menu a{
     background: #FFF;
     color: #333;
 }
 
-.ht-main-navigation a{
+.ht-main-navigation .ht-menu a{
     color: #FFF;
 }
 
-body.home.blog .ht-main-navigation li:hover > a, 
-body .ht-main-navigation .current_page_item > a, 
-body .ht-main-navigation .current-menu-item > a, 
-body .ht-main-navigation .current_page_ancestor > a, 
-body.home.blog .ht-main-navigation .current > a
-body .ht-main-navigation li:hover > a, 
-body.page-template-home-template .ht-main-navigation li:hover > a,
-body.page-template-home-template .ht-main-navigation .current > a{
+body.home.blog .ht-main-navigation .ht-menu li:hover > a, 
+body .ht-main-navigation .ht-menu .current_page_item > a, 
+body .ht-main-navigation .ht-menu .current-menu-item > a, 
+body .ht-main-navigation .ht-menu .current_page_ancestor > a, 
+body.home.blog .ht-main-navigation .ht-menu .current > a,
+body .ht-main-navigation .ht-menu li:hover > a, 
+body.page-template-home-template .ht-main-navigation .ht-menu li:hover > a,
+body.page-template-home-template .ht-main-navigation .ht-menu .current > a{
     background: #FFF !important;
     color: #333 !important;
 }
@@ -671,6 +671,12 @@ body.page-template-home-template .ht-main-navigation .current > a{
 }
 
 @media screen and (max-width: 1000px){
+    #ht-site-navigation{
+        display: block;
+        top: auto;
+        background: none !important;
+    }
+
     .toggle-bar {
         position: relative;
         float: right;
@@ -685,20 +691,36 @@ body.page-template-home-template .ht-main-navigation .current > a{
     }
 
     .ht-main-navigation .ht-menu{
-        top: 80px
-    }
-
-    .ht-main-navigation li{
-        margin: 0;
-    }
-
-    .ht-main-navigation li.ht-button-menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        background: #FFC107;
+        z-index: 999;
+        width: 100%;
+        padding: 0;
         float: none;
     }
 
-    .ht-sticky .ht-main-navigation ul ul,
-    .ht-main-navigation ul ul{
+    .ht-main-navigation .ht-menu li{
+        margin: 0;
+    }
+
+    .ht-main-navigation .ht-menu li.ht-button-menu{
+        float: none;
+    }
+
+    .ht-sticky .ht-main-navigation .ht-menu ul ul,
+    .ht-main-navigation .ht-menu ul ul{
         margin-top: 0;
+    }
+
+    body.home.blog .ht-main-navigation .ht-menu li:hover > a,
+    body .ht-main-navigation .ht-menu li:hover > a, 
+    body.page-template-home-template .ht-main-navigation .ht-menu li:hover > a{
+        background: none !important;
+        color: #FFF !important;
     }
 
     .ht-slide-cap-title{
@@ -781,5 +803,11 @@ body.page-template-home-template .ht-main-navigation .current > a{
 
     .ht-main-header-widget{
         margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1001px){
+    .ht-main-navigation .ht-menu {
+        display: block !important;
     }
 }

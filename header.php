@@ -16,7 +16,9 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
+        <?php wp_body_open(); ?>
         <div id="ht-page">
+            <a class="skip-link screen-reader-text" href="#ht-content"><?php esc_html_e('Skip to content', 'totally'); ?></a>
             <header id="ht-masthead" class="ht-site-header">
                 <div class="ht-top-header">
                     <div class="ht-container">
@@ -152,7 +154,7 @@
                 <nav id="ht-site-navigation" class="ht-main-navigation">
                     <div class="ht-container">
                         <div class="ht-nav-wrap ht-clearfix">
-                            <div class="toggle-bar"><span></span></div>
+                            <a href="#" class="toggle-bar"><span></span></a>
                             <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'primary',

@@ -5,7 +5,7 @@
  Author:       Hash Themes
  Author URI:   https://hashthemes.com
  Template:     total
- Version:      1.1.2
+ Version:      1.1.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, education, blog, custom-logo
@@ -137,14 +137,20 @@ h6{
     height: auto;
     border: none;
     position: relative;
+    background: none;
 }
 
 .ht-sticky-header #ht-masthead{
     position: relative;
 }
 
-.ht-sticky-header #ht-content{
-    padding: 0
+.home.blog:not(.ht-enable-frontpage) #ht-masthead{
+    margin-bottom: 80px;
+}
+
+.ht-sticky-header #ht-content,
+.home.blog.ht-sticky-header:not(.ht-enable-frontpage) #ht-content{
+    padding-top: 0
 }
 
 .ht-sticky #ht-site-navigation,

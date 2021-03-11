@@ -1,6 +1,6 @@
 <?php
 if (!defined('TOTALLY_VER')) {
-    define('TOTALLY_VER', '1.1.3');
+    define('TOTALLY_VER', '1.1.4');
 }
 
 function totally_dequeue_script() {

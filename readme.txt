@@ -26,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.1.4 - Jul 4, 2020 =
+* Header spacing issue fixed
+
 = 1.1.3 - May 17, 2020 =
 * Header CSS issue fixed
 

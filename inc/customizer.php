@@ -306,10 +306,4 @@ function totally_customize_register($wp_customize) {
     )));
 }
 
-add_action('customize_register', 'totally_customize_register', 50);
-
-function totally_customizer_script() {
-    wp_enqueue_style('totally-customizer-style', get_stylesheet_directory_uri() . '/inc/customizer-control.css', array('wp-color-picker'), TOTALLY_VER);
-}
-
-add_action('customize_controls_enqueue_scripts', 'totally_customizer_script');
+add_action('total_new_options', 'totally_customize_register');

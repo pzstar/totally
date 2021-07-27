@@ -6,7 +6,7 @@
 if (get_theme_mod('total_testimonial_section_disable') != 'on') {
     ?>
     <section id="ht-testimonial-section" class="ht-section">
-        <div class="ht-container">
+        <div class="ht-container ht-clearfix">
             <?php
             $total_testimonial_title = get_theme_mod('total_testimonial_title');
             $total_testimonial_sub_title = get_theme_mod('total_testimonial_sub_title');

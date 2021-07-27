@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Totally\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 14:44+0000\n"
+"POT-Creation-Date: 2021-07-27 09:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,153 +15,134 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.3.0; wp-5.2.4"
 
-#: functions.php:27
-msgid "Top Header Widget"
-msgstr ""
-
-#: functions.php:29 functions.php:39
-msgid "Add widgets here to appear in your Top Header."
-msgstr ""
-
-#: functions.php:37
-msgid "Main Header Widget"
-msgstr ""
-
-#. If there are characters in your language that are not supported
-#. by Open Sans, translate this to 'off'. Do not translate into your own language.
-#: functions.php:72
-msgctxt "Poppins font: on or off"
-msgid "on"
-msgstr ""
-
-#. If there are characters in your language that are not supported
-#. by Inconsolata, translate this to 'off'. Do not translate into your own language.
-#: functions.php:80
-msgctxt "Teko font: on or off"
-msgid "on"
-msgstr ""
-
-#. To add an additional character subset specific to your language,
-#. translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
-#: functions.php:88
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr ""
-
-#: header.php:90 inc/customizer.php:122
-msgid "Email Us"
-msgstr ""
-
-#: header.php:109 inc/customizer.php:158
-msgid "Call Us"
-msgstr ""
-
-#: header.php:129 inc/customizer.php:194
-msgid "Find Us"
-msgstr ""
-
-#: footer.php:57
-msgid "WordPress Theme"
-msgstr ""
-
 #. 1-Theme URL, 2-Theme Author
-#: footer.php:62
+#: functions.php:300
 #, php-format
 msgid "%1$s by %2$s"
 msgstr ""
 
-#: inc/customizer.php:16
-msgid "Top left Header Content"
-msgstr ""
-
-#: inc/customizer.php:26
-msgid "Top Right Header Socials Icons"
-msgstr ""
-
-#: inc/customizer.php:27
-msgid ""
-"You can additionally add widget in the top header by going to Widget Page "
-"and adding widget in Top Header Widget"
-msgstr ""
-
-#: inc/customizer.php:38
-msgid "Facebook"
-msgstr ""
-
-#: inc/customizer.php:49
-msgid "Twitter"
-msgstr ""
-
-#: inc/customizer.php:60
-msgid "Instagram"
-msgstr ""
-
-#: inc/customizer.php:71
-msgid "Youtube"
-msgstr ""
-
-#: inc/customizer.php:82
-msgid "Pinterest"
-msgstr ""
-
-#: inc/customizer.php:93
-msgid "LinkedIn"
-msgstr ""
-
-#: inc/customizer.php:103
-msgid "Header Contact Info"
-msgstr ""
-
-#: inc/customizer.php:104
-msgid "This section will appear beside Logo."
-msgstr ""
-
-#: inc/customizer.php:117 inc/customizer.php:153 inc/customizer.php:189
-msgid "Choose Icon"
-msgstr ""
-
-#: inc/customizer.php:129 inc/customizer.php:165 inc/customizer.php:201
-msgid "Heading"
-msgstr ""
-
-#: inc/customizer.php:141 inc/customizer.php:177 inc/customizer.php:213
-msgid "Text"
-msgstr ""
-
-#: inc/customizer.php:170
+#: inc/customizer.php:212
 msgid "+01 3434320324"
 msgstr ""
 
-#: inc/customizer.php:206
+#: inc/customizer.php:247
 msgid "234 Littleton Street"
 msgstr ""
 
-#: inc/customizer.php:224
-msgid "Navigation CTA Button"
+#: functions.php:33 functions.php:43
+msgid "Add widgets here to appear in your Top Header."
 msgstr ""
 
-#: inc/customizer.php:225
-msgid "This button appear at the right end of the Menu."
-msgstr ""
-
-#: inc/customizer.php:236
-msgid "Button Text"
-msgstr ""
-
-#: inc/customizer.php:247
+#: inc/customizer.php:288
 msgid "Button Link"
 msgstr ""
 
-#: inc/customizer.php:252
-msgid "Title Bar Settings"
+#: inc/customizer.php:277
+msgid "Button Text"
 msgstr ""
 
-#: inc/customizer.php:253
+#: functions.php:216 inc/customizer.php:200
+msgid "Call Us"
+msgstr ""
+
+#: inc/customizer.php:160 inc/customizer.php:195 inc/customizer.php:230
+msgid "Choose Icon"
+msgstr ""
+
+#: inc/customizer.php:8
+msgid "Content"
+msgstr ""
+
+#: functions.php:197 inc/customizer.php:165
+msgid "Email Us"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Facebook"
+msgstr ""
+
+#: functions.php:236 inc/customizer.php:235
+msgid "Find Us"
+msgstr ""
+
+#. Author of the theme
+msgid "Hash Themes"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Header Contact Info"
+msgstr ""
+
+#: inc/customizer.php:172 inc/customizer.php:207 inc/customizer.php:242
+msgid "Heading"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://hashthemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://hashthemes.com/wordpress-theme/totally/"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:294
 msgid "It is the header bar where the title and breadcrumb appears"
 msgstr ""
 
-#: inc/customizer.php:264
+#: inc/customizer.php:137
+msgid "LinkedIn"
+msgstr ""
+
+#: functions.php:41
+msgid "Main Header Widget"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Navigation CTA Button"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:305
 msgid "Recommended Image Size: 2000X600px"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Style"
+msgstr ""
+
+#: inc/customizer.php:184 inc/customizer.php:219 inc/customizer.php:254
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "This button appear at the right end of the Menu."
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "This section will appear beside Logo."
+msgstr ""
+
+#: inc/customizer.php:293
+msgid "Title Bar Settings"
+msgstr ""
+
+#: functions.php:31
+msgid "Top Header Widget"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Top left Header Content"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Top Right Header Socials Icons"
 msgstr ""
 
 #. Name of the theme
@@ -187,14 +168,16 @@ msgid ""
 "website with Totally. DEMO: https://demo.hashthemes.com/totally"
 msgstr ""
 
-#. URI of the theme
-msgid "https://hashthemes.com/wordpress-theme/totally/"
+#: inc/customizer.php:93
+msgid "Twitter"
 msgstr ""
 
-#. Author of the theme
-msgid "Hash Themes"
+#: inc/customizer.php:71
+msgid ""
+"You can additionally add widget in the top header by going to Widget Page "
+"and adding widget in Top Header Widget"
 msgstr ""
 
-#. Author URI of the theme
-msgid "https://hashthemes.com"
+#: inc/customizer.php:115
+msgid "Youtube"
 msgstr ""

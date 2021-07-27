@@ -1,5 +1,4 @@
 <?php
-
 if (!defined('TOTALLY_VER')) {
     $totally_get_theme = wp_get_theme();
     $totally_version = $totally_get_theme->Version;
@@ -8,24 +7,23 @@ if (!defined('TOTALLY_VER')) {
 
 function totally_dequeue_script() {
     wp_dequeue_script('total-custom');
-    wp_dequeue_script('total-fonts');
 }
 
 add_action('wp_print_scripts', 'totally_dequeue_script', 100);
 
 function totally_slug_setup() {
-    load_child_theme_textdomain( 'totally', get_stylesheet_directory() . '/languages' );
+    load_child_theme_textdomain('totally', get_stylesheet_directory() . '/languages');
 }
-add_action( 'after_setup_theme', 'totally_slug_setup' );
+
+add_action('after_setup_theme', 'totally_slug_setup');
 
 add_action('wp_enqueue_scripts', 'totally_enqueue_scripts');
 
 function totally_enqueue_scripts() {
     wp_enqueue_style('totally-parent-style', get_template_directory_uri() . '/style.css', array(), TOTALLY_VER);
-    wp_enqueue_style('totally-style', get_stylesheet_directory_uri() . '/style.css', array('totally-parent-style'), TOTALLY_VER);
+    wp_enqueue_style('totally-style', get_stylesheet_directory_uri() . '/styles.css', array('total-style'), TOTALLY_VER);
     wp_add_inline_style('totally-style', totally_dymanic_styles());
     wp_enqueue_script('totally-custom', get_stylesheet_directory_uri() . '/js/totally-custom.js', array('jquery'), TOTALLY_VER, true);
-    wp_enqueue_style('totally-fonts', totally_fonts_url(), array(), NULL);
 }
 
 function totally_widgets_init() {
@@ -38,7 +36,7 @@ function totally_widgets_init() {
         'before_title' => '<h4 class="widget-title">',
         'after_title' => '</h4>',
     ));
-    
+
     register_sidebar(array(
         'name' => esc_html__('Main Header Widget', 'totally'),
         'id' => 'totally-main-header-widget',
@@ -66,57 +64,10 @@ function totally_add_link($items, $args) {
     return $items;
 }
 
-function totally_fonts_url() {
-    $fonts_url = '';
-    $fonts = array();
-    $subsets = 'latin,latin-ext';
-
-    /*
-     * Translators: If there are characters in your language that are not supported
-     * by Open Sans, translate this to 'off'. Do not translate into your own language.
-     */
-    if ('off' !== _x('on', 'Poppins font: on or off', 'totally')) {
-        $fonts[] = 'Poppins:300,300i,400,400i,500,700,700i';
-    }
-
-    /*
-     * Translators: If there are characters in your language that are not supported
-     * by Inconsolata, translate this to 'off'. Do not translate into your own language.
-     */
-    if ('off' !== _x('on', 'Teko font: on or off', 'totally')) {
-        $fonts[] = 'Teko:300,400,500,600,700';
-    }
-
-    /*
-     * Translators: To add an additional character subset specific to your language,
-     * translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
-     */
-    $subset = _x('no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'totally');
-
-    if ('cyrillic' == $subset) {
-        $subsets .= ',cyrillic,cyrillic-ext';
-    } elseif ('greek' == $subset) {
-        $subsets .= ',greek,greek-ext';
-    } elseif ('devanagari' == $subset) {
-        $subsets .= ',devanagari';
-    } elseif ('vietnamese' == $subset) {
-        $subsets .= ',vietnamese';
-    }
-
-    if ($fonts) {
-        $fonts_url = add_query_arg(array(
-            'family' => urlencode(implode('|', $fonts)),
-            'subset' => urlencode($subsets),
-                ), '//fonts.googleapis.com/css');
-    }
-
-    return esc_url_raw($fonts_url);
-}
-
 function totally_dymanic_styles() {
     $color = get_theme_mod('total_template_color', '#FFC107');
-    $color_rgba = totally_hex2rgba($color, 0.9);
-    $totally_titlebar_background = get_theme_mod('totally_titlebar_background', get_stylesheet_directory_uri(). '/images/banner-image.jpg');
+    $color_rgba = total_hex2rgba($color, 0.9);
+    $totally_titlebar_background = get_theme_mod('totally_titlebar_background', get_stylesheet_directory_uri() . '/images/banner-image.jpg');
     $custom_css = "
         body #ht-site-navigation .ht-nav-wrap, 
         body .ht-portfolio-cat-name:hover, 
@@ -128,115 +79,241 @@ function totally_dymanic_styles() {
         body .ht-sticky #ht-site-navigation,
         body .ht-top-header,
         body .ht-main-navigation .ht-menu{background:" . sanitize_hex_color($color) . "}
-        body .ht-team-detail{background:" . totally_sanitize_color_alpha($color_rgba) . "}
+        body .ht-team-detail{background:" . total_sanitize_color_alpha($color_rgba) . "}
         body .ht-featured-post h5, body .ht-featured-link a:hover, body .ht-contact-block i{color:" . sanitize_hex_color($color) . "}
-        body .ht-main-header{background-image: url(". esc_url($totally_titlebar_background) .")}
+        body .ht-main-header{background-image: url(" . esc_url($totally_titlebar_background) . ")}
     ";
 
-    return totally_css_strip_whitespace($custom_css);
-}
-
-function totally_css_strip_whitespace($css) {
-    $replace = array(
-        "#/\*.*?\*/#s" => "", // Strip C style comments.
-        "#\s\s+#" => " ", // Strip excess whitespace.
-    );
-    $search = array_keys($replace);
-    $css = preg_replace($search, $replace, $css);
-
-    $replace = array(
-        ": " => ":",
-        "; " => ";",
-        " {" => "{",
-        " }" => "}",
-        ", " => ",",
-        "{ " => "{",
-        ";}" => "}", // Strip optional semicolons.
-        ",\n" => ",", // Don't wrap multiple selectors.
-        "\n}" => "}", // Don't wrap closing braces.
-        "} " => "}\n", // Put each rule on it's own line.
-    );
-    $search = array_keys($replace);
-    $css = str_replace($search, $replace, $css);
-
-    return trim($css);
-}
-
-function totally_hex2rgba($color, $opacity = false) {
-
-    $default = 'rgb(0,0,0)';
-
-    //Return default if no color provided
-    if (empty($color))
-        return $default;
-
-    //Sanitize $color if "#" is provided 
-    if ($color[0] == '#') {
-        $color = substr($color, 1);
+    $total_mh_bg_color = get_theme_mod('total_mh_bg_color', '#FFFFFF');
+    if ($total_mh_bg_color) {
+        $custom_css .= "body .ht-middle-header{background-color:$total_mh_bg_color}";
     }
 
-    //Check if color has 6 or 3 characters and get values
-    if (strlen($color) == 6) {
-        $hex = array($color[0] . $color[1], $color[2] . $color[3], $color[4] . $color[5]);
-    } elseif (strlen($color) == 3) {
-        $hex = array($color[0] . $color[0], $color[1] . $color[1], $color[2] . $color[2]);
-    } else {
-        return $default;
-    }
+    $custom_css .= total_dimension_css('total_mh_spacing', array(
+        'position' => array('left', 'top', 'bottom', 'right'),
+        'selector' => 'body .ht-middle-header .ht-container',
+        'type' => 'padding',
+        'unit' => 'px',
+        'responsive' => false
+    ));
 
-    //Convert hexadec to rgb
-    $rgb = array_map('hexdec', $hex);
+    $custom_css .= total_typography_css('total_h', 'h1, h2, h3, h4, h5, h6, .ht-site-title, .ht-slide-cap-title, .ht-counter-count', array(
+        'family' => 'Teko',
+        'style' => '400',
+        'text_transform' => 'none',
+        'text_decoration' => 'none',
+        'line_height' => '1.1',
+        'letter_spacing' => '0'
+    ));
 
-    //Check if opacity is set(rgba or rgb)
-    if ($opacity) {
-        if (abs($opacity) > 1)
-            $opacity = 1.0;
-        $output = 'rgba(' . implode(",", $rgb) . ',' . $opacity . ')';
-    } else {
-        $output = 'rgb(' . implode(",", $rgb) . ')';
-    }
-
-    //Return rgb(a) color string
-    return $output;
-}
-
-function totally_sanitize_color_alpha($color) {
-    $color = str_replace('#', '', $color);
-    if ('' === $color) {
-        return '';
-    }
-
-    // 3 or 6 hex digits, or the empty string.
-    if (preg_match('|^#([A-Fa-f0-9]{3}){1,2}$|', '#' . $color)) {
-        // convert to rgb
-        $colour = $color;
-        if (strlen($colour) == 6) {
-            list( $r, $g, $b ) = array($colour[0] . $colour[1], $colour[2] . $colour[3], $colour[4] . $colour[5]);
-        } elseif (strlen($colour) == 3) {
-            list( $r, $g, $b ) = array($colour[0] . $colour[0], $colour[1] . $colour[1], $colour[2] . $colour[2]);
-        } else {
-            return false;
-        }
-        $r = hexdec($r);
-        $g = hexdec($g);
-        $b = hexdec($b);
-        return 'rgba(' . join(',', array('r' => $r, 'g' => $g, 'b' => $b, 'a' => 1)) . ')';
-    }
-
-    return strpos(trim($color), 'rgb') !== false ? $color : false;
-}
-
-function totally_in_range($input, $min, $max) {
-    if ($input < $min) {
-        $input = $min;
-    }
-    if ($input > $max) {
-        $input = $max;
-    }
-    return $input;
+    return total_css_strip_whitespace($custom_css);
 }
 
 /**
  * Customizer additions.
  */
 require get_stylesheet_directory() . '/inc/customizer.php';
+
+add_action('wp_head', 'totally_remove_actions');
+add_action('total_header', 'totally_display_header');
+
+function totally_remove_actions() {
+    remove_action('total_header', 'total_display_header');
+    remove_action('total_footer_template', 'total_bottom_footer', 30);
+}
+
+function totally_display_header() {
+    ?>
+    <header id="ht-masthead" class="ht-site-header">
+        <div class="ht-top-header">
+            <div class="ht-container">
+                <?php
+                $totally_left_header_text = get_theme_mod('totally_left_header_text', 'Aveneu Park, Starling, Australia');
+                if ($totally_left_header_text) {
+                    ?>
+                    <div class="ht-left-header">
+                        <?php echo wp_kses_post($totally_left_header_text); ?>
+                    </div>
+                <?php } ?>
+
+                <?php
+                $totally_social_icons = array('facebook', 'twitter', 'instagram', 'youtube', 'pinterest', 'linkedin');
+                ?>
+                <div class="ht-right-header">
+                    <div class="ht-top-header-social-icons">
+                        <?php
+                        foreach ($totally_social_icons as $totally_social_icon) {
+                            $totally_social_link = get_theme_mod('totally_' . $totally_social_icon . '_link');
+                            if ($totally_social_link) {
+                                echo '<a href="' . esc_url($totally_social_link) . '" target="_blank"><i class="fa fa-' . esc_attr($totally_social_icon) . '"></i></a>';
+                            }
+                        }
+                        ?>
+                    </div>
+
+                    <?php
+                    if (is_active_sidebar('totally-top-header-widget')) {
+                        ?>
+                        <div class="ht-top-header-widget">
+                            <?php dynamic_sidebar('totally-top-header-widget'); ?>
+                        </div>
+                        <?php
+                    }
+                    ?>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="ht-middle-header">
+            <div class="ht-container">
+                <div id="ht-site-branding">
+                    <?php
+                    if (function_exists('has_custom_logo') && has_custom_logo()) :
+                        the_custom_logo();
+                    else :
+                        if (is_front_page()) :
+                            ?>
+                            <h1 class="ht-site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+                        <?php else : ?>
+                            <p class="ht-site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+                        <?php endif; ?>
+                        <p class="ht-site-description"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('description'); ?></a></p>
+                    <?php endif; ?>
+                </div><!-- .site-branding -->
+
+                <?php
+                if (is_active_sidebar('totally-main-header-widget')) {
+                    ?>
+                    <div class="ht-main-header-widget">
+                        <?php dynamic_sidebar('totally-main-header-widget'); ?>
+                    </div>
+                    <?php
+                } else {
+                    ?>
+                    <div class="ht-site-contact-info">
+                        <?php
+                        $totally_hci_icon1 = get_theme_mod('totally_hci_icon1', 'fa fa-envelope');
+                        $totally_hci_header1 = get_theme_mod('totally_hci_header1', esc_html__('Email Us', 'totally'));
+                        $totally_hci_text1 = get_theme_mod('totally_hci_text1', 'info@yourdomain.com');
+
+                        if ($totally_hci_header1 || $totally_hci_text1) {
+                            echo '<div class="ht-contact-block">';
+                            echo '<i class="' . esc_attr($totally_hci_icon1) . '"></i>';
+
+                            echo '<div class="ht-contact-block-text">';
+                            if ($totally_hci_header1) {
+                                echo '<h4>' . esc_html($totally_hci_header1) . '</h4>';
+                            }
+
+                            if ($totally_hci_text1) {
+                                echo '<p>' . esc_html($totally_hci_text1) . '</p>';
+                            }
+                            echo '</div></div>';
+                        }
+
+                        $totally_hci_icon2 = get_theme_mod('totally_hci_icon2', 'fa fa-phone');
+                        $totally_hci_header2 = get_theme_mod('totally_hci_header2', esc_html__('Call Us', 'totally'));
+                        $totally_hci_text2 = get_theme_mod('totally_hci_text2', '+01 3434320324');
+
+
+                        if ($totally_hci_header2 || $totally_hci_text2) {
+                            echo '<div class="ht-contact-block">';
+                            echo '<i class="' . esc_attr($totally_hci_icon2) . '"></i>';
+
+                            echo '<div class="ht-contact-block-text">';
+                            if ($totally_hci_header1) {
+                                echo '<h4>' . esc_html($totally_hci_header2) . '</h4>';
+                            }
+
+                            if ($totally_hci_text2) {
+                                echo '<p>' . esc_html($totally_hci_text2) . '</p>';
+                            }
+                            echo '</div></div>';
+                        }
+
+                        $totally_hci_icon3 = get_theme_mod('totally_hci_icon3', 'fa fa-map-pin');
+                        $totally_hci_header3 = get_theme_mod('totally_hci_header3', esc_html__('Find Us', 'totally'));
+                        $totally_hci_text3 = get_theme_mod('totally_hci_text3', '234 Littleton Street');
+
+                        if ($totally_hci_header3 || $totally_hci_text3) {
+                            echo '<div class="ht-contact-block">';
+                            echo '<i class="' . esc_attr($totally_hci_icon3) . '"></i>';
+
+                            echo '<div class="ht-contact-block-text">';
+                            if ($totally_hci_header3) {
+                                echo '<h4>' . esc_html($totally_hci_header3) . '</h4>';
+                            }
+
+                            if ($totally_hci_text3) {
+                                echo '<p>' . esc_html($totally_hci_text3) . '</p>';
+                            }
+                            echo '</div></div>';
+                        }
+                        ?>
+                    </div>
+                <?php } ?>
+            </div>
+        </div>
+
+        <nav id="ht-site-navigation" class="ht-main-navigation">
+            <div class="ht-container">
+                <div class="ht-nav-wrap ht-clearfix">
+                    <a href="#" class="toggle-bar"><span></span></a>
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'primary',
+                        'container_class' => 'ht-menu ht-clearfix',
+                        'menu_class' => 'ht-clearfix',
+                        'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                        'fallback_cb' => false
+                    ));
+                    ?>
+                </div>
+            </div>
+        </nav><!-- #ht-site-navigation -->
+    </header><!-- #ht-masthead -->
+    <?php
+}
+
+add_filter('total_customizer_fonts', 'totally_customizer_fonts');
+
+if (!function_exists('totally_bottom_footer')) {
+
+    function totally_bottom_footer() {
+        ?>
+        <div id="ht-bottom-footer">
+            <div class="ht-container">
+                <div class="ht-site-info ht-bottom-footer">
+                    <?php
+                    $show_credit = apply_filters('total_display_footer_credit', '__return_true');
+                    $total_footer_copyright = get_theme_mod('total_footer_copyright');
+                    if ($total_footer_copyright) {
+                        echo do_shortcode($total_footer_copyright);
+                        if ($show_credit) {
+                            echo '<span class="sep"> | </span>';
+                        }
+                    }
+                    if ($show_credit) {
+                        printf(
+                                // translators: 1-Theme URL, 2-Theme Author
+                                esc_html__('%1$s by %2$s', 'totally'), '<a href="https://hashthemes.com/wordpress-theme/totally/" target="_blank">WordPress Theme - Totally</a>', 'HashThemes');
+                    }
+                    ?>
+                </div><!-- #site-info -->
+            </div>
+        </div>
+        <?php
+    }
+
+}
+
+add_action('total_footer_template', 'totally_bottom_footer', 30);
+
+function totally_customizer_fonts($fonts) {
+    return array(
+        'total_body_family' => 'Poppins',
+        'total_menu_family' => 'Oswald',
+        'total_h_family' => 'Teko'
+    );
+}

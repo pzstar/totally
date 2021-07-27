@@ -40,7 +40,7 @@
                                 foreach ($totally_social_icons as $totally_social_icon) {
                                     $totally_social_link = get_theme_mod('totally_' . $totally_social_icon . '_link');
                                     if ($totally_social_link) {
-                                        echo '<a href="' . esc_url($totally_social_link) . '"><i class="fa fa-' . esc_attr($totally_social_icon) . '"></i></a>';
+                                        echo '<a href="' . esc_url($totally_social_link) . '" target="_blank"><i class="fa fa-' . esc_attr($totally_social_icon) . '"></i></a>';
                                     }
                                 }
                                 ?>

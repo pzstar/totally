@@ -1,6 +1,9 @@
 <?php
+
 if (!defined('TOTALLY_VER')) {
-    define('TOTALLY_VER', '1.1.4');
+    $totally_get_theme = wp_get_theme();
+    $totally_version = $totally_get_theme->Version;
+    define('TOTALLY_VER', $totally_version);
 }
 
 function totally_dequeue_script() {

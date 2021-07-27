@@ -2,8 +2,8 @@
 
 Contributors: HashThemes
 Tags: two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, photography, holiday, custom-logo
-Requires at least: 5.0
-Tested up to: 5.1.1
+Requires at least: 5.6
+Tested up to: 5.6.2
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,10 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.1.6 - Mar 01, 2020 =
+* Header Social Icon opened in New Tab
+* Other Minor Fixes
+
 = 1.1.4 - Jul 4, 2020 =
 * Header spacing issue fixed
 

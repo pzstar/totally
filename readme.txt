@@ -26,7 +26,10 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
-= 1.1.7 - Jul 027, 2020 =
+= 1.1.8 - Sep 01, 2020 =
+* Logo slider not working issue fixed
+
+= 1.1.7 - Jul 27, 2020 =
 * Fixes with the latest change in parent theme
 
 = 1.1.6 - Mar 01, 2020 =

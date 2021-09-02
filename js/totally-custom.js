@@ -48,7 +48,7 @@ jQuery(function ($) {
         });
     }
 
-    $(".ht_client_logo_slider").owlCarousel({
+    $(".ht-logo-slider").owlCarousel({
         autoplay: true,
         items: 5,
         loop: true,

@@ -106,6 +106,85 @@ function totally_dymanic_styles() {
         'letter_spacing' => '0'
     ));
 
+    /* =============== Primary Menu  =============== */
+    $menu_link_color = get_theme_mod('total_pm_menu_link_color');
+    $menu_link_hover_color = get_theme_mod('total_pm_menu_link_hover_color');
+    $menu_link_hover_bg_color = get_theme_mod('total_pm_menu_hover_bg_color');
+    $submenu_bg_color = get_theme_mod('total_pm_submenu_bg_color');
+    $submenu_link_color = get_theme_mod('total_pm_submenu_link_color');
+    $submenu_link_hover_color = get_theme_mod('total_pm_submenu_link_hover_color');
+    $submenu_link_hover_bg_color = get_theme_mod('total_pm_submenu_link_bg_color');
+
+    if ($menu_link_color) {
+        $custom_css .= "
+        .ht-menu > ul > li.menu-item > a{
+            color: $menu_link_color;
+        }";
+    }
+
+    if ($menu_link_color) {
+        $custom_css .= "
+        .ht-menu > ul > li.menu-item:hover > a,
+        .ht-menu > ul > li.menu-item.current_page_item > a,
+        .ht-menu > ul > li.menu-item.current-menu-item > a,
+        .ht-menu > ul > li.menu-item.current_page_ancestor > a,
+        .ht-menu > ul > li.menu-item.current > a{
+            color: $menu_link_hover_color;
+        }";
+    }
+
+    if ($menu_link_hover_bg_color) {
+        $custom_css .= "
+        .ht-menu > ul > li.menu-item:hover > a,
+        .ht-menu > ul > li.menu-item.current_page_item > a,
+        .ht-menu > ul > li.menu-item.current-menu-item > a,
+        .ht-menu > ul > li.menu-item.current_page_ancestor > a,
+        .ht-menu > ul > li.menu-item.current > a{
+            background-color: $menu_link_hover_bg_color;
+        }";
+    }
+
+    if ($submenu_bg_color) {
+        $custom_css .= "  
+        .ht-menu ul ul{
+            background-color: $submenu_bg_color;
+        }";
+    }
+
+    if ($submenu_link_color) {
+        $custom_css .= ".ht-menu ul ul li.menu-item > a{
+            color: $submenu_link_color;
+        }";
+    }
+
+    if ($submenu_link_hover_color) {
+        $custom_css .= ".ht-menu ul ul li.menu-item:hover > a{
+            color: $submenu_link_hover_color;
+         }";
+    }
+
+    if ($submenu_link_hover_bg_color) {
+        $custom_css .= ".ht-menu ul ul li.menu-item:hover > a{
+            background-color: $submenu_link_hover_bg_color;
+        }";
+    }
+
+    $custom_css .= "
+        @media screen and (max-width: 1000px){
+            #ht-site-navigation .ht-menu{background-color: $submenu_bg_color;}
+            .ht-menu > ul > li.menu-item > a{color: $submenu_link_color;}
+            .ht-menu > ul > li.menu-item:hover > a, 
+            .ht-menu > ul > li.menu-item.current_page_item > a, 
+            .ht-menu > ul > li.menu-item.current-menu-item > a, 
+            .ht-menu > ul > li.menu-item.current_page_ancestor > a, 
+            .ht-menu > ul > li.menu-item.current > a{
+                color: $submenu_link_hover_color;
+                background-color: $submenu_link_hover_bg_color;
+            }
+            
+        }
+        ";
+
     return total_css_strip_whitespace($custom_css);
 }
 

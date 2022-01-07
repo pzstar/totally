@@ -98,7 +98,7 @@ h6{
 }
 
 .home.blog:not(.ht-enable-frontpage) #ht-masthead,
-body.ht-titlebar-disabled:not(.ht-enable-frontpage):not(.page-template-home-template) #ht-masthead{
+.ht-titlebar-disabled:not(.ht-enable-frontpage):not(.page-template-home-template) #ht-masthead{
     margin-bottom: 80px;
 }
 
@@ -313,16 +313,13 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     color: #000;
 }
 
-body.home.blog .ht-main-navigation .ht-menu li:hover > a, 
-body .ht-main-navigation .ht-menu .current_page_item > a, 
-body .ht-main-navigation .ht-menu .current-menu-item > a, 
-body .ht-main-navigation .ht-menu .current_page_ancestor > a, 
-body.home.blog .ht-main-navigation .ht-menu .current > a,
-body .ht-main-navigation .ht-menu li:hover > a, 
-body.page-template-home-template .ht-main-navigation .ht-menu li:hover > a,
-body.page-template-home-template .ht-main-navigation .ht-menu .current > a{
-    background: #FFF !important;
-    color: #333 !important;
+.ht-menu > ul > li.menu-item:hover > a, 
+.ht-menu > ul > li.menu-item.current_page_item > a, 
+.ht-menu > ul > li.menu-item.current-menu-item > a, 
+.ht-menu > ul > li.menu-item.current_page_ancestor > a, 
+.ht-menu > ul > li.menu-item.current > a{
+    background: #FFF;
+    color: #333;
 }
 
 .ht-section-title{
@@ -637,6 +634,14 @@ body.page-template-home-template .ht-main-navigation .ht-menu .current > a{
         background: none !important;
     }
 
+    .ht-main-navigation .ht-menu a{
+        color: #333;
+    }
+    
+    .ht-menu ul ul {
+        border: 0;
+    }
+
     .toggle-bar {
         position: relative;
         float: right;
@@ -675,11 +680,8 @@ body.page-template-home-template .ht-main-navigation .ht-menu .current > a{
         margin-top: 0;
     }
 
-    body.home.blog .ht-main-navigation .ht-menu li:hover > a,
-    body .ht-main-navigation .ht-menu li:hover > a, 
-    body.page-template-home-template .ht-main-navigation .ht-menu li:hover > a{
-        background: none !important;
-        color: #FFF !important;
+    .ht-menu > ul li.menu-item:hover > a .ht-dropdown{
+        border-color: #333; 
     }
 
     .ht-slide-cap-title{

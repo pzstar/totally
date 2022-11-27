@@ -2,6 +2,7 @@
 
 function totally_customize_register($wp_customize) {
     $wp_customize->get_setting('total_h_family')->default = 'Teko';
+    $wp_customize->get_setting('total_h_line_height')->default = 1.1;
 
     $wp_customize->get_control('total_main_header_nav')->buttons = array(
         array(

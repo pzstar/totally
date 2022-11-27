@@ -69,42 +69,8 @@ function totally_dymanic_styles() {
     $color_rgba = total_hex2rgba($color, 0.9);
     $totally_titlebar_background = get_theme_mod('totally_titlebar_background', get_stylesheet_directory_uri() . '/images/banner-image.jpg');
     $custom_css = "
-        body #ht-site-navigation .ht-nav-wrap, 
-        body .ht-portfolio-cat-name:hover, 
-        body .ht-portfolio-cat-name.active,
-        body .ht-blog-date,
-        body .ht-section-title:before,
-        body .ht-team-detail,
-        body .ht-team-detail:hover,
-        body .ht-sticky #ht-site-navigation,
-        body .ht-top-header,
-        body .ht-main-navigation .ht-menu{background:" . sanitize_hex_color($color) . "}
-        body .ht-team-detail{background:" . total_sanitize_color_alpha($color_rgba) . "}
-        body .ht-featured-post h5, body .ht-featured-link a:hover, body .ht-contact-block i{color:" . sanitize_hex_color($color) . "}
         body .ht-main-header{background-image: url(" . esc_url($totally_titlebar_background) . ")}
     ";
-
-    $total_mh_bg_color = get_theme_mod('total_mh_bg_color', '#FFFFFF');
-    if ($total_mh_bg_color) {
-        $custom_css .= "body .ht-middle-header{background-color:$total_mh_bg_color}";
-    }
-
-    $custom_css .= total_dimension_css('total_mh_spacing', array(
-        'position' => array('left', 'top', 'bottom', 'right'),
-        'selector' => 'body .ht-middle-header .ht-container',
-        'type' => 'padding',
-        'unit' => 'px',
-        'responsive' => false
-    ));
-
-    $custom_css .= total_typography_css('total_h', 'h1, h2, h3, h4, h5, h6, .ht-site-title, .ht-slide-cap-title, .ht-counter-count', array(
-        'family' => 'Teko',
-        'style' => '400',
-        'text_transform' => 'none',
-        'text_decoration' => 'none',
-        'line_height' => '1.1',
-        'letter_spacing' => '0'
-    ));
 
     /* =============== Primary Menu  =============== */
     $menu_link_color = get_theme_mod('total_pm_menu_link_color');

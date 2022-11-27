@@ -1,3 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ht-site-title, 
+.ht-slide-cap-title, 
+.ht-counter-count{
+    font-family: var(--total-h-family, Teko);
+    line-height: var(--total-h-line-height, 1.1);
+}
+
 h1{
     font-size: 42px;
 }
@@ -112,7 +125,7 @@ h6{
 }
 
 .ht-top-header{
-    background: #111;
+    background: var(--total-template-color, #111);
     padding: 10px 0;
     color: #FFF;
     font-size: 0.85em;
@@ -197,12 +210,18 @@ h6{
     top: 0;
 }
 
+.ht-middle-header{
+    background: var(--total-mh-bg-color, #FFF); 
+}
+
 .ht-middle-header .ht-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-left: var(--total-mh-spacing-left, 0);
+    padding-top: var(--total-mh-spacing-top, 50px);
+    padding-right: var(--total-mh-spacing-right, 0);
+    padding-bottom: var(--total-mh-spacing-bottom, 70px);
 }
 
 #ht-site-branding{
@@ -232,6 +251,7 @@ h6{
 .ht-contact-block i{
     font-size: 30px;
     margin-right: 20px;
+    color: var(--total-template-color);
 }
 
 .ht-contact-block h4{
@@ -265,6 +285,7 @@ h6{
     padding: 15px;
     transform: translateY(-50%);
     z-index: 9;
+    background: var(--total-template-color);
 }
 
 .ht-sticky #ht-site-navigation{
@@ -273,6 +294,7 @@ h6{
     top: 0;
     left: 0;
     right: 0;
+    background: var(--total-template-color);
 }
 
 body.admin-bar .ht-sticky #ht-site-navigation{
@@ -285,6 +307,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
 
 .ht-main-navigation .ht-menu{
     float: none;
+    background: var(--total-template-color);
 }
 
 .ht-main-navigation .ht-menu ul ul{
@@ -336,6 +359,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     height: 4px;
     width: 50px;
     transform: translateX(-50%);
+    background: var(--total-template-color);
 }
 
 #ht-about-us-section .ht-section-title:before,
@@ -372,6 +396,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
 
 .ht-featured-post h5{
     margin-bottom: 20px;
+    color: var(--total-template-color);
 }
 
 .ht-featured-icon .fa{
@@ -397,6 +422,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
 
 .ht-featured-link a:hover{
     background: none;
+    color: var(--total-template-color);
 }
 
 .ht-portfolio-cat-name-list{
@@ -417,6 +443,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
 .ht-portfolio-cat-name.active{
     border-radius: 1px;
     color: #FFF !important;
+    background: var(--total-template-color);
 }
 
 .ht-blog-post{
@@ -431,6 +458,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     padding: 10px 5px;
     float: left;
     margin-left: -80px;
+    background: var(--total-template-color);
 }
 
 .ht-blog-date span{
@@ -554,6 +582,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     width: 50px;
     opacity: 0;
     transtion: all 0.3s ease-in-out;
+    background: var(--total-template-transparent-color);
 }
 
 .ht-team-member-image:hover .ht-team-detail{
@@ -575,6 +604,10 @@ body.admin-bar .ht-sticky #ht-site-navigation{
 
 .ht-team-detail:before{
     transform: rotate(90deg);
+}
+
+.ht-team-detail:hover{
+    background: var(--total-template-color);
 }
 
 .ht-team-content-wrap{

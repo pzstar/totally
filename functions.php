@@ -58,99 +58,17 @@ function totally_add_link($items, $args) {
         $totally_mh_button_link = get_theme_mod('totally_mh_button_link');
 
         if ($totally_mh_button_link && $totally_mh_button_text) {
-            $items .= '<li class="ht-button-menu"><a href="' . esc_url($totally_mh_button_link) . '">' . esc_html($totally_mh_button_text) . '</a></li>';
+            $items .= '<li class="menu-item ht-button-menu"><a href="' . esc_url($totally_mh_button_link) . '">' . esc_html($totally_mh_button_text) . '</a></li>';
         }
     }
     return $items;
 }
 
 function totally_dymanic_styles() {
-    $color = get_theme_mod('total_template_color', '#FFC107');
-    $color_rgba = total_hex2rgba($color, 0.9);
     $totally_titlebar_background = get_theme_mod('totally_titlebar_background', get_stylesheet_directory_uri() . '/images/banner-image.jpg');
     $custom_css = "
         body .ht-main-header{background-image: url(" . esc_url($totally_titlebar_background) . ")}
     ";
-
-    /* =============== Primary Menu  =============== */
-    $menu_link_color = get_theme_mod('total_pm_menu_link_color');
-    $menu_link_hover_color = get_theme_mod('total_pm_menu_link_hover_color');
-    $menu_link_hover_bg_color = get_theme_mod('total_pm_menu_hover_bg_color');
-    $submenu_bg_color = get_theme_mod('total_pm_submenu_bg_color');
-    $submenu_link_color = get_theme_mod('total_pm_submenu_link_color');
-    $submenu_link_hover_color = get_theme_mod('total_pm_submenu_link_hover_color');
-    $submenu_link_hover_bg_color = get_theme_mod('total_pm_submenu_link_bg_color');
-
-    if ($menu_link_color) {
-        $custom_css .= "
-        .ht-menu > ul > li.menu-item > a{
-            color: $menu_link_color;
-        }";
-    }
-
-    if ($menu_link_color) {
-        $custom_css .= "
-        .ht-menu > ul > li.menu-item:hover > a,
-        .ht-menu > ul > li.menu-item.current_page_item > a,
-        .ht-menu > ul > li.menu-item.current-menu-item > a,
-        .ht-menu > ul > li.menu-item.current_page_ancestor > a,
-        .ht-menu > ul > li.menu-item.current > a{
-            color: $menu_link_hover_color;
-        }";
-    }
-
-    if ($menu_link_hover_bg_color) {
-        $custom_css .= "
-        .ht-menu > ul > li.menu-item:hover > a,
-        .ht-menu > ul > li.menu-item.current_page_item > a,
-        .ht-menu > ul > li.menu-item.current-menu-item > a,
-        .ht-menu > ul > li.menu-item.current_page_ancestor > a,
-        .ht-menu > ul > li.menu-item.current > a{
-            background-color: $menu_link_hover_bg_color;
-        }";
-    }
-
-    if ($submenu_bg_color) {
-        $custom_css .= "  
-        .ht-menu ul ul{
-            background-color: $submenu_bg_color;
-        }";
-    }
-
-    if ($submenu_link_color) {
-        $custom_css .= ".ht-menu ul ul li.menu-item > a{
-            color: $submenu_link_color;
-        }";
-    }
-
-    if ($submenu_link_hover_color) {
-        $custom_css .= ".ht-menu ul ul li.menu-item:hover > a{
-            color: $submenu_link_hover_color;
-         }";
-    }
-
-    if ($submenu_link_hover_bg_color) {
-        $custom_css .= ".ht-menu ul ul li.menu-item:hover > a{
-            background-color: $submenu_link_hover_bg_color;
-        }";
-    }
-
-    $custom_css .= "
-        @media screen and (max-width: 1000px){
-            #ht-site-navigation .ht-menu{background-color: $submenu_bg_color;}
-            .ht-menu > ul > li.menu-item > a{color: $submenu_link_color;}
-            .ht-menu > ul > li.menu-item:hover > a, 
-            .ht-menu > ul > li.menu-item.current_page_item > a, 
-            .ht-menu > ul > li.menu-item.current-menu-item > a, 
-            .ht-menu > ul > li.menu-item.current_page_ancestor > a, 
-            .ht-menu > ul > li.menu-item.current > a{
-                color: $submenu_link_hover_color;
-                background-color: $submenu_link_hover_bg_color;
-            }
-            
-        }
-        ";
-
     return total_css_strip_whitespace($custom_css);
 }
 
@@ -321,8 +239,6 @@ function totally_display_header() {
     <?php
 }
 
-add_filter('total_customizer_fonts', 'totally_customizer_fonts');
-
 if (!function_exists('totally_bottom_footer')) {
 
     function totally_bottom_footer() {
@@ -354,6 +270,8 @@ if (!function_exists('totally_bottom_footer')) {
 }
 
 add_action('total_footer_template', 'totally_bottom_footer', 30);
+
+add_filter('total_customizer_fonts', 'totally_customizer_fonts');
 
 function totally_customizer_fonts($fonts) {
     return array(

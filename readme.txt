@@ -3,15 +3,15 @@
 Contributors: HashThemes
 Tags: two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, photography, holiday, custom-logo
 Requires at least: 5.0
-Tested up to: 5.8
-Stable tag: 1.1.9
+Tested up to: 6.1
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Total WordPress Theme, Copyright HashThemes 2019
-Total is distributed under the terms of the GNU GPL v2 or later.
+Totally WordPress Theme, Copyright HashThemes 2022
+Totally is distributed under the terms of the GNU GPL v2 or later.
 
-Totally WordPress Theme is the child theme of Total Theme, Copyright HashThemes 2019
+Totally WordPress Theme is the child theme of Total Theme, Copyright HashThemes 2022
 Totally is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
@@ -26,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.2.0 - Nov 28, 2022 =
+* Updated with latest changes
+
 = 1.1.9 - Dec 21, 2021 =
 * Dynamic Style issue on menu fixed
 

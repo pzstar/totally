@@ -11,30 +11,6 @@ h6,
     line-height: var(--total-h-line-height, 1.1);
 }
 
-h1{
-    font-size: 42px;
-}
-
-h2{
-    font-size: 36px;
-}
-
-h3{
-    font-size: 30px;
-}
-
-h4{
-    font-size: 28px;
-}
-
-h5{
-    font-size: 26px;
-}
-
-h6{
-    font-size: 24px;
-}
-
 .ht-main-navigation a{
     font-size: 14px;
     font-weight: 400;
@@ -54,12 +30,12 @@ h6{
 }
 
 .ht-section-title{
-    font-size: 50px;
+    font-size: calc(var(--total-h-size, 26px) * 7/8);
 }
 
 .ht-slide-cap-title,
 .ht-site-title{
-    font-size: 54px;
+    font-size: calc(var(--total-h-size, 26px));
 }
 
 .ht-slide-cap-title span{
@@ -305,21 +281,21 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     transform: translateY(0);
 }
 
-.ht-main-navigation .ht-menu{
+.ht-menu{
     float: none;
     background: var(--total-template-color);
 }
 
-.ht-main-navigation .ht-menu ul ul{
+.ht-menu ul ul{
     margin-top: 15px;
 }
 
-.ht-main-navigation .ht-menu li{
+.ht-menu li{
     margin-left: 0;
     margin-right: 10px;
 }
 
-.ht-main-navigation .ht-menu li.ht-button-menu{
+.ht-menu li.ht-button-menu{
     float: right;
 }
 
@@ -328,11 +304,11 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     background: var(--total-menu-link-hover-bg-color, #FFF);
 }
 
-.ht-main-navigation .ht-menu a{
+.ht-menu a{
     color: #FFF;
 }
 
-.ht-main-navigation .ht-menu ul ul a{
+.ht-menu ul ul a{
     color: #000;
 }
 

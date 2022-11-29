@@ -166,7 +166,7 @@ function totally_display_header() {
 
                             echo '<div class="ht-contact-block-text">';
                             if ($totally_hci_header1) {
-                                echo '<h4>' . esc_html($totally_hci_header1) . '</h4>';
+                                echo '<h5>' . esc_html($totally_hci_header1) . '</h5>';
                             }
 
                             if ($totally_hci_text1) {
@@ -186,7 +186,7 @@ function totally_display_header() {
 
                             echo '<div class="ht-contact-block-text">';
                             if ($totally_hci_header1) {
-                                echo '<h4>' . esc_html($totally_hci_header2) . '</h4>';
+                                echo '<h5>' . esc_html($totally_hci_header2) . '</h5>';
                             }
 
                             if ($totally_hci_text2) {
@@ -205,7 +205,7 @@ function totally_display_header() {
 
                             echo '<div class="ht-contact-block-text">';
                             if ($totally_hci_header3) {
-                                echo '<h4>' . esc_html($totally_hci_header3) . '</h4>';
+                                echo '<h5>' . esc_html($totally_hci_header3) . '</h5>';
                             }
 
                             if ($totally_hci_text3) {

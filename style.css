@@ -13,3 +13,7 @@
  Tested up to: 6.1
  Requires PHP: 5.0
 */
+
+:root{
+    --total-h-size: 56px;
+}

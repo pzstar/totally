@@ -360,7 +360,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     color: var(--total-template-color);
 }
 
-.ht-featured-icon .fa{
+.ht-featured-icon i{
     vertical-align: middle;
 }
 
@@ -390,7 +390,7 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     text-align: center;
 }
 
-.ht-portfolio-cat-name-list .fa{
+.ht-portfolio-cat-name-list i{
     display: none;
 }
 

@@ -628,14 +628,33 @@ body.admin-bar .ht-sticky #ht-site-navigation{
         background: none !important;
     }
 
-    .ht-main-navigation .ht-menu a{
-        color: #333;
+    .ht-menu > ul > li.menu-item > a{
+        color: var(--total-submenu-link-color, #333);
     }
 
     .ht-menu ul ul {
         border: 0;
     }
 
+    .ht-menu > ul > li.menu-item:hover > a, 
+    .ht-menu > ul > li.menu-item.current_page_item > a, 
+    .ht-menu > ul > li.menu-item.current-menu-item > a, 
+    .ht-menu > ul > li.menu-item.current_page_ancestor > a, 
+    .ht-menu > ul > li.menu-item.current > a,
+    .ht-menu ul ul li.menu-item:hover > a{
+        color: var(--total-submenu-link-hover-color, var(--total-submenu-link-color, #333));
+        background-color: var(--total-submenu-link-hover-bg-color, transparent);
+    }
+
+    .menu-item-has-children .ht-dropdown, 
+    .menu-item-has-children ul .ht-dropdown{
+        border-color: var(--total-submenu-link-color, #333);
+    }
+    
+    .ht-menu > ul li.menu-item:hover > a .ht-dropdown{
+        border-color: var(--total-submenu-link-hover-color, var(--total-submenu-link-color, #333));
+    }
+    
     .toggle-bar {
         position: relative;
         float: right;
@@ -672,10 +691,6 @@ body.admin-bar .ht-sticky #ht-site-navigation{
     .ht-sticky .ht-main-navigation .ht-menu ul ul,
     .ht-main-navigation .ht-menu ul ul{
         margin-top: 0;
-    }
-
-    .ht-menu > ul li.menu-item:hover > a .ht-dropdown{
-        border-color: #333; 
     }
 
     .ht-slide img{

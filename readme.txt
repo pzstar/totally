@@ -3,8 +3,8 @@
 Contributors: HashThemes
 Tags: two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, photography, holiday, custom-logo
 Requires at least: 5.0
-Tested up to: 6.2
-Stable tag: 1.2.2
+Tested up to: 6.3
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.2.3 - Spe 02, 2023 =
+* Fontawesome icon updated to latest version
+
 = 1.2.2 - Apr 28, 2022 =
 * Toggle menu color issue fixed in responsive layout
 

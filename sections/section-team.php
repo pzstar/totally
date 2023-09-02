@@ -80,7 +80,7 @@ if (get_theme_mod('total_team_section_disable') != 'on') {
                                             <?php } ?>
 
                                             <?php if ($total_team_twitter) { ?>
-                                                <a target="_blank" href="<?php echo esc_url($total_team_twitter) ?>"><i class="fa fa-twitter"></i></a>
+                                                <a target="_blank" href="<?php echo esc_url($total_team_twitter) ?>"><i class="fab fa-x-twitter"></i></a>
                                             <?php } ?>
 
                                             <?php if ($total_team_instagram) { ?>

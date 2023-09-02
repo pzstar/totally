@@ -100,15 +100,22 @@ function totally_display_header() {
                 <?php } ?>
 
                 <?php
-                $totally_social_icons = array('facebook', 'twitter', 'instagram', 'youtube', 'pinterest', 'linkedin');
+                $totally_social_icons = array(
+                    'facebook' => 'facebook',
+                    'twitter' => 'x-twitter',
+                    'instagram' => 'instagram',
+                    'youtube' => 'youtube',
+                    'pinterest' => 'pinterest',
+                    'linkedin' => 'linkedin'
+                );
                 ?>
                 <div class="ht-right-header">
                     <div class="ht-top-header-social-icons">
                         <?php
-                        foreach ($totally_social_icons as $totally_social_icon) {
-                            $totally_social_link = get_theme_mod('totally_' . $totally_social_icon . '_link');
+                        foreach ($totally_social_icons as $totally_social_key => $totally_social_icon) {
+                            $totally_social_link = get_theme_mod('totally_' . $totally_social_key . '_link');
                             if ($totally_social_link) {
-                                echo '<a href="' . esc_url($totally_social_link) . '" target="_blank"><i class="fa fa-' . esc_attr($totally_social_icon) . '"></i></a>';
+                                echo '<a href="' . esc_url($totally_social_link) . '" target="_blank"><i class="fab fa-' . esc_attr($totally_social_icon) . '"></i></a>';
                             }
                         }
                         ?>

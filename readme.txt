@@ -2,9 +2,9 @@
 
 Contributors: HashThemes
 Tags: two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, photography, holiday, custom-logo
-Requires at least: 5.0
+Requires at least: 6.3
 Tested up to: 6.7
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ Totaly is a complete packaged theme with all the feature that you need to make a
 
 
 == Changelog ==
+= 1.2.5 - Jan 12, 2025 =
+* Stellar js replace with custom JS code
+
 = 1.2.4 - Dec 23, 2024 =
 * Compatibility test with latest version of WordPress
 

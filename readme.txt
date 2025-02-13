@@ -1,17 +1,13 @@
 === Totally ===
-
-Contributors: HashThemes
-Tags: two-columns, right-sidebar, custom-background, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, portfolio, photography, holiday, custom-logo
+Contributors: hashthemes
 Requires at least: 6.3
 Tested up to: 6.7
 Stable tag: 1.2.5
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Totally WordPress Theme, Copyright HashThemes 2022
-Totally is distributed under the terms of the GNU GPL v2 or later.
-
-Totally WordPress Theme is the child theme of Total Theme, Copyright HashThemes 2022
+Totally WordPress Theme is the child theme of Total Theme, Copyright HashThemes 2025
 Totally is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
